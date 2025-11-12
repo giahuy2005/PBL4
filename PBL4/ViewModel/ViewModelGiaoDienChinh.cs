@@ -84,7 +84,7 @@ namespace PBL4.ViewModel
             //C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe
             string python_path = @"C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe";
             //D:\kỳ 5\PBL4\PBL4\PBL4\Python\get_camera.py      
-            string script_path = @"D:\Hoang Lan\DEV\PBL4\PBL4\Python\Run_server.py";
+            string script_path = @"D:\Hoang Lan\DEV\PBL4\PBL4\Py\Run_server.py";
             runPythonScript(python_path, script_path);
             int retryCount = 0;
             while (true) {
