@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\viewmodel\\viewmodelgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\viewmodel\\viewmodelgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\usercontrols\\signinuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\usercontrols\\signinuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\usercontrols\\signinuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\usercontrols\\signinuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\services\\cameraclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\services\\cameraclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\services\\runpython.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\services\\runpython.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\view\\giaodienchinh.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\view\\giaodienchinh.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\viewmodel\\viewmodelsigninuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\viewmodel\\viewmodelsigninuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\viewmodel\\viewmodelmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\viewmodel\\viewmodelmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\usercontrols\\signinuc.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\usercontrols\\signinuc.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\view\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\view\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\view\\giaodienchinh.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\view\\giaodienchinh.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\resourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\resourcedictionary.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\images\\camera.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\images\\camera.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|d:\\ky5\\pbl4\\pbl4_truy_xuat_va_quan_ly_du_lieu_hinh_anh_camera_thong_qua_mang\\pbl4\\pbl4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97B3DB1C-9C59-4E25-B037-C6940D822E44}|PBL4\\PBL4.csproj|solutionrelative:pbl4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 259,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 465,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewModelGiaoDienChinh.cs",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ViewModel\\ViewModelGiaoDienChinh.cs",
+              "RelativeDocumentMoniker": "PBL4\\ViewModel\\ViewModelGiaoDienChinh.cs",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ViewModel\\ViewModelGiaoDienChinh.cs",
+              "RelativeToolTip": "PBL4\\ViewModel\\ViewModelGiaoDienChinh.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:36:47.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RunPython.cs",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\Services\\RunPython.cs",
+              "RelativeDocumentMoniker": "PBL4\\Services\\RunPython.cs",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\Services\\RunPython.cs",
+              "RelativeToolTip": "PBL4\\Services\\RunPython.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:42:07.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraClient.cs",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\Services\\CameraClient.cs",
+              "RelativeDocumentMoniker": "PBL4\\Services\\CameraClient.cs",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\Services\\CameraClient.cs",
+              "RelativeToolTip": "PBL4\\Services\\CameraClient.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwMcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:45:54.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignInUC.xaml",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\UserControls\\SignInUC.xaml",
+              "RelativeDocumentMoniker": "PBL4\\UserControls\\SignInUC.xaml",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\UserControls\\SignInUC.xaml",
+              "RelativeToolTip": "PBL4\\UserControls\\SignInUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T05:15:17.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PBL4\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\MainWindow.xaml",
+              "RelativeToolTip": "PBL4\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T08:35:15.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GiaoDienChinh.xaml",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\GiaoDienChinh.xaml",
+              "RelativeDocumentMoniker": "PBL4\\View\\GiaoDienChinh.xaml",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\GiaoDienChinh.xaml",
+              "RelativeToolTip": "PBL4\\View\\GiaoDienChinh.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T03:27:58.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ViewModelMain.cs",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ViewModel\\ViewModelMain.cs",
+              "RelativeDocumentMoniker": "PBL4\\ViewModel\\ViewModelMain.cs",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ViewModel\\ViewModelMain.cs",
+              "RelativeToolTip": "PBL4\\ViewModel\\ViewModelMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T10:42:29.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PBL4\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\MainWindow.xaml",
+              "RelativeToolTip": "PBL4\\View\\MainWindow.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T03:17:33.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GiaoDienChinh.xaml.cs",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\GiaoDienChinh.xaml.cs",
+              "RelativeDocumentMoniker": "PBL4\\View\\GiaoDienChinh.xaml.cs",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\View\\GiaoDienChinh.xaml.cs",
+              "RelativeToolTip": "PBL4\\View\\GiaoDienChinh.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwBYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:20:56.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResourceDictionary.xaml",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ResourceDictionary.xaml",
+              "RelativeDocumentMoniker": "PBL4\\ResourceDictionary.xaml",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ResourceDictionary.xaml",
+              "RelativeToolTip": "PBL4\\ResourceDictionary.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T03:27:11.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\App.xaml",
+              "RelativeDocumentMoniker": "PBL4\\App.xaml",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\App.xaml",
+              "RelativeToolTip": "PBL4\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-06T12:37:16.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "camera.png",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\Images\\camera.png",
+              "RelativeDocumentMoniker": "PBL4\\Images\\camera.png",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\Images\\camera.png",
+              "RelativeToolTip": "PBL4\\Images\\camera.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-11-12T03:33:37.34Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 312,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignInUC.xaml.cs",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\UserControls\\SignInUC.xaml.cs",
+              "RelativeDocumentMoniker": "PBL4\\UserControls\\SignInUC.xaml.cs",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\UserControls\\SignInUC.xaml.cs",
+              "RelativeToolTip": "PBL4\\UserControls\\SignInUC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:22:46.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewModelSignInUC.cs",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ViewModel\\ViewModelSignInUC.cs",
+              "RelativeDocumentMoniker": "PBL4\\ViewModel\\ViewModelSignInUC.cs",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\ViewModel\\ViewModelSignInUC.cs",
+              "RelativeToolTip": "PBL4\\ViewModel\\ViewModelSignInUC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T05:19:53.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignInUC.xaml",
+              "DocumentMoniker": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\UserControls\\SignInUC.xaml",
+              "RelativeDocumentMoniker": "PBL4\\UserControls\\SignInUC.xaml",
+              "ToolTip": "D:\\ky5\\PBL4\\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\\PBL4\\PBL4\\UserControls\\SignInUC.xaml",
+              "RelativeToolTip": "PBL4\\UserControls\\SignInUC.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-12T05:15:35.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

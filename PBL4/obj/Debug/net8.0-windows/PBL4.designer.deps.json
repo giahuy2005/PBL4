@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CommunityToolkit.Mvvm/8.4.0": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.1"
+          }
+        }
+      },
+      "MaterialDesignColors/2.0.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.0.3.2",
+            "fileVersion": "2.0.3.2"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.2.1": {
+        "dependencies": {
+          "MaterialDesignColors": "2.0.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.2.1.2",
+            "fileVersion": "4.2.1.2"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Mvvm/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
+      "path": "communitytoolkit.mvvm/8.4.0",
+      "hashPath": "communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hn5GsMbmYet4WTVRNN01VGkPglWtytJt3oTTzjHjPSDtoF6ZVmfjj6R1EeNER2rlBtSNGuqB4GZmD6cnHL0f1A==",
+      "path": "materialdesigncolors/2.0.3",
+      "hashPath": "materialdesigncolors.2.0.3.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LsvOoXrEtOJib+kvBx3TIUN+zYexQcYiKGYoAXWMvfFTwiaELRWk89wny9sI4lPDqoJtIXVtoxo1oRDsLwy7NQ==",
+      "path": "materialdesignthemes/4.2.1",
+      "hashPath": "materialdesignthemes.4.2.1.nupkg.sha512"
+    }
+  }
+}

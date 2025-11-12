@@ -1,0 +1,92 @@
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.exe
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.deps.json
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.runtimeconfig.json
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.dll
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.pdb
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\App.g.cs
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4_MarkupCompile.cache
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4_MarkupCompile.lref
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.g.resources
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.GeneratedMSBuildEditorConfig.editorconfig
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.AssemblyInfoInputs.cache
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.AssemblyInfo.cs
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.CoreCompileInputs.cache
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.dll
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\refint\PBL4.dll
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.pdb
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.genruntimeconfig.cache
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\ref\PBL4.dll
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.AssemblyReference.cache
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+D:\kỳ 5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\App.baml
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.Up2Date
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\MainWindow.baml
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\ResourceDictionary.baml
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\GiaoDienChinh.g.cs
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\GiaoDienChinh.baml
+D:\kỳ 5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.exe
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.deps.json
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.runtimeconfig.json
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.dll
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.pdb
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+D:\ky5\PBL4\PBL4\PBL4\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.AssemblyReference.cache
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\ResourceDictionary.baml
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\GiaoDienChinh.g.cs
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\App.g.cs
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4_MarkupCompile.cache
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4_MarkupCompile.lref
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\App.baml
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\GiaoDienChinh.baml
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\View\MainWindow.baml
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.g.resources
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.GeneratedMSBuildEditorConfig.editorconfig
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.AssemblyInfoInputs.cache
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.AssemblyInfo.cs
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.CoreCompileInputs.cache
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.sourcelink.json
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.Up2Date
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.dll
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\refint\PBL4.dll
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.pdb
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.genruntimeconfig.cache
+D:\ky5\PBL4\PBL4\PBL4\obj\Debug\net8.0-windows\ref\PBL4.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.exe
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.deps.json
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.runtimeconfig.json
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\PBL4.pdb
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.AssemblyReference.cache
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\ResourceDictionary.baml
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\View\GiaoDienChinh.g.cs
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\App.g.cs
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4_MarkupCompile.cache
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4_MarkupCompile.lref
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\App.baml
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\View\GiaoDienChinh.baml
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\View\MainWindow.baml
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.g.resources
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.GeneratedMSBuildEditorConfig.editorconfig
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.AssemblyInfoInputs.cache
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.AssemblyInfo.cs
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.CoreCompileInputs.cache
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.sourcelink.json
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.csproj.Up2Date
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\refint\PBL4.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.pdb
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.genruntimeconfig.cache
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\ref\PBL4.dll

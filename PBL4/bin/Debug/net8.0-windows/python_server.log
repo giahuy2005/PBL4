@@ -1,0 +1,1396 @@
+[2025-09-24 09:17:27] ✅ Python process started with PID 16728
+[2025-09-24 09:19:16] ✅ Python process started with PID 13176
+[2025-09-24 13:40:15] ✅ Python process started with PID 18552
+[2025-09-24 13:40:15] [PYTHON] Process exited with code 1
+[2025-09-24 13:40:17] [PYTHON-ERR] Traceback (most recent call last):
+[2025-09-24 13:40:17] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 114, in <module>
+[2025-09-24 13:40:18] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 00:09:21] ✅ Python process started with PID 14580
+[2025-11-04 00:14:40] ✅ Python process started with PID 12192
+[2025-11-04 00:14:41] [PYTHON] Process exited with code 1
+[2025-11-04 00:14:52] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 00:14:54] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 114, in <module>
+[2025-11-04 00:14:56] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 00:14:57] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 00:14:58] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 00:14:59] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 00:15:01] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 00:15:02] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 00:15:02] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 00:15:03] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 00:15:04] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 00:15:05] [PYTHON-ERR]     return future.result()
+[2025-11-04 00:15:05] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 00:15:06] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-04 00:15:08] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 00:15:08] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 00:15:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 00:15:08] [PYTHON-ERR]     return await self
+[2025-11-04 00:47:56] Python process started with PID 14304
+[2025-11-04 00:47:57] [PYTHON] Process exited with code 1
+[2025-11-04 00:47:59] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 00:48:00] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 126, in <module>
+[2025-11-04 00:48:01] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 00:48:02] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 00:48:03] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 00:48:32] Python process started with PID 7552
+[2025-11-04 00:48:32] [PYTHON] Process exited with code 1
+[2025-11-04 00:48:33] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 00:48:34] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 126, in <module>
+[2025-11-04 00:48:35] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 00:48:37] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:04:46] Python process started with PID 16776
+[2025-11-04 01:04:55] Python process started with PID 14644
+[2025-11-04 01:05:24] Python process started with PID 19480
+[2025-11-04 01:05:25] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:05:25] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:05:25] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:05:25] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:05:25] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:05:25] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:05:25] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:05:25] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:05:25] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:05:25] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:05:25] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:05:25] [PYTHON-ERR]     return await self
+[2025-11-04 01:05:25] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:05:25] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:05:25] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:05:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:05:25] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:05:25] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:05:25] [PYTHON] Process exited with code 1
+[2025-11-04 01:13:01] Python process started with PID 19296
+[2025-11-04 01:13:01] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:13:01] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:13:01] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:13:01] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:13:01] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:13:01] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:13:01] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:13:01] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:13:01] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:13:01] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:13:01] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:13:01] [PYTHON-ERR]     return await self
+[2025-11-04 01:13:01] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:13:01] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:13:01] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:13:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:13:01] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:13:01] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:13:01] [PYTHON] Process exited with code 1
+[2025-11-04 01:14:54] Python process started with PID 16876
+[2025-11-04 01:14:54] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:14:54] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:14:54] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:14:54] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:14:54] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:14:54] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:14:54] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:14:54] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:14:54] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:14:54] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:14:54] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:14:54] [PYTHON-ERR]     return await self
+[2025-11-04 01:14:54] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:14:54] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:14:54] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:14:54] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:14:54] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:14:54] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:14:54] [PYTHON] Process exited with code 1
+[2025-11-04 01:15:51] Python process started with PID 7932
+[2025-11-04 01:15:51] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:15:51] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:15:51] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:15:51] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:15:51] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:15:51] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:15:51] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:15:51] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:15:51] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:15:51] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:15:51] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:15:51] [PYTHON-ERR]     return await self
+[2025-11-04 01:15:51] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:15:51] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:15:51] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:15:51] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:15:51] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:15:51] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:15:51] [PYTHON] Process exited with code 1
+[2025-11-04 01:17:18] Python process started with PID 19332
+[2025-11-04 01:17:18] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:17:18] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:17:18] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:17:18] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:17:18] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:17:18] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:17:18] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:17:18] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:17:18] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:17:18] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:17:18] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:17:18] [PYTHON-ERR]     return await self
+[2025-11-04 01:17:18] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:17:18] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:17:18] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:17:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:17:18] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:17:18] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:17:18] [PYTHON] Process exited with code 1
+[2025-11-04 01:18:59] Python process started with PID 16184
+[2025-11-04 01:18:59] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:18:59] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:18:59] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:18:59] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:18:59] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:18:59] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:18:59] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:18:59] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:18:59] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:18:59] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:18:59] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:18:59] [PYTHON-ERR]     return await self
+[2025-11-04 01:18:59] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:18:59] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:18:59] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:18:59] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:18:59] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:18:59] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:18:59] [PYTHON] Process exited with code 1
+[2025-11-04 01:25:41] Python process started with PID 15164
+[2025-11-04 01:25:42] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:25:42] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:25:42] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:25:42] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:25:42] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:25:42] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:25:42] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:25:42] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:25:42] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:25:42] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:25:42] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:25:42] [PYTHON-ERR]     return await self
+[2025-11-04 01:25:42] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:25:42] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:25:42] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:25:42] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:25:42] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:25:42] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:25:42] [PYTHON] Process exited with code 1
+[2025-11-04 01:25:49] Python process started with PID 20436
+[2025-11-04 01:27:24] Python process started with PID 16128
+[2025-11-04 01:27:25] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:27:25] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:27:25] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:27:25] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:27:25] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:27:25] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:27:25] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:27:25] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:27:25] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:27:25] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:27:25] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:27:25] [PYTHON-ERR]     return await self
+[2025-11-04 01:27:25] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:27:25] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:27:25] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:27:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:27:25] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:27:25] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:27:25] [PYTHON] Process exited with code 1
+[2025-11-04 01:28:28] Python process started with PID 6008
+[2025-11-04 01:28:28] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:28:28] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:28:28] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:28:28] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:28:28] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:28:28] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:28:28] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:28:28] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:28:28] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:28:28] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:28:28] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:28:28] [PYTHON-ERR]     return await self
+[2025-11-04 01:28:28] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:28:28] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:28:28] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:28:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:28:28] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:28:28] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:28:28] [PYTHON] Process exited with code 1
+[2025-11-04 01:34:01] Python process started with PID 17468
+[2025-11-04 01:34:01] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:34:01] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:34:01] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:34:01] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:34:01] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:34:01] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:34:01] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:34:01] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:34:01] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:34:01] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:34:01] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:34:01] [PYTHON-ERR]     return await self
+[2025-11-04 01:34:01] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:34:01] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:34:01] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:34:01] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:34:01] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:34:01] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:34:02] [PYTHON] Process exited with code 1
+[2025-11-04 01:37:57] Python process started with PID 18448
+[2025-11-04 01:37:57] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:37:57] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:37:57] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:37:57] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:37:57] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:37:57] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:37:57] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:37:57] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:37:57] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:37:57] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:37:57] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:37:57] [PYTHON-ERR]     return await self
+[2025-11-04 01:37:57] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:37:57] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:37:57] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:37:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:37:57] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:37:57] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:37:57] [PYTHON] Process exited with code 1
+[2025-11-04 01:39:34] Python process started with PID 9532
+[2025-11-04 01:39:34] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:39:34] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:39:34] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:39:34] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:39:34] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:39:34] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:39:34] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:39:34] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:39:34] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:39:34] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:39:34] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:39:34] [PYTHON-ERR]     return await self
+[2025-11-04 01:39:34] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:39:34] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:39:34] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:39:34] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:39:34] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:39:34] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:39:34] [PYTHON] Process exited with code 1
+[2025-11-04 01:41:31] Python process started with PID 3820
+[2025-11-04 01:41:32] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:41:32] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:41:32] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:41:32] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:41:32] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:41:32] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:41:32] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:41:32] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:41:32] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:41:32] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:41:32] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:41:32] [PYTHON-ERR]     return await self
+[2025-11-04 01:41:32] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:41:32] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:41:32] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:41:32] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:41:32] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:41:32] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:41:32] [PYTHON] Process exited with code 1
+[2025-11-04 01:41:46] Python process started with PID 12688
+[2025-11-04 01:41:47] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:41:47] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:41:47] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:41:47] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:41:47] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:41:47] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:41:47] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:41:47] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:41:47] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:41:47] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:41:47] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:41:47] [PYTHON-ERR]     return await self
+[2025-11-04 01:41:47] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:41:47] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:41:47] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:41:47] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:41:47] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:41:47] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:41:47] [PYTHON] Process exited with code 1
+[2025-11-04 01:42:51] Python process started with PID 4980
+[2025-11-04 01:42:52] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:42:52] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:42:52] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:42:52] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:42:52] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:42:52] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:42:52] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:42:52] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:42:52] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:42:52] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:42:52] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:42:52] [PYTHON-ERR]     return await self
+[2025-11-04 01:42:52] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:42:52] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:42:52] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:42:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:42:52] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:42:52] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:42:52] [PYTHON] Process exited with code 1
+[2025-11-04 01:45:04] Python process started with PID 8476
+[2025-11-04 01:45:04] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-04 01:45:04] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-04 01:45:04] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-04 01:45:04] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-04 01:45:04] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-04 01:45:04] [PYTHON-ERR]     return runner.run(main)
+[2025-11-04 01:45:04] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-04 01:45:04] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-04 01:45:04] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-04 01:45:04] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-04 01:45:04] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-04 01:45:05] [PYTHON-ERR]     return future.result()
+[2025-11-04 01:45:05] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-04 01:45:05] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-04 01:45:05] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-04 01:45:05] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:45:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-04 01:45:05] [PYTHON-ERR]     return await self
+[2025-11-04 01:45:05] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-04 01:45:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-04 01:45:05] [PYTHON-ERR]     server = await self.create_server
+[2025-11-04 01:45:05] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-04 01:45:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-04 01:45:05] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-04 01:45:05] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-04 01:45:05] [PYTHON] Process exited with code 1
+[2025-11-05 17:41:43] Python process started with PID 4120
+[2025-11-05 17:42:05] Python process started with PID 12400
+[2025-11-05 17:42:06] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 17:42:06] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 17:42:06] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 17:42:06] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 17:42:06] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 17:42:06] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 17:42:06] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 17:42:06] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 17:42:06] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 17:42:06] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 17:42:06] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 17:42:06] [PYTHON-ERR]     return future.result()
+[2025-11-05 17:42:06] [PYTHON] Process exited with code 1
+[2025-11-05 17:52:31] Python process started with PID 14948
+[2025-11-05 17:52:31] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 17:52:31] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 17:52:31] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 17:52:31] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 17:52:31] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 17:52:31] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 17:52:31] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 17:52:31] [PYTHON-ERR]     return future.result()
+[2025-11-05 17:52:31] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 17:52:31] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 17:52:31] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 17:52:31] [PYTHON-ERR]     return await self
+[2025-11-05 17:52:31] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 17:52:31] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 17:52:31] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 17:52:31] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 17:52:31] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 17:52:31] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 17:52:31] [PYTHON] Process exited with code 1
+[2025-11-05 17:56:32] Python process started with PID 1704
+[2025-11-05 17:56:33] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 17:56:33] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 17:56:33] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 17:56:33] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 17:56:33] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 17:56:33] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 17:56:33] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 17:56:33] [PYTHON-ERR]     return future.result()
+[2025-11-05 17:56:33] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 17:56:33] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 17:56:33] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 17:56:33] [PYTHON-ERR]     return await self
+[2025-11-05 17:56:33] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 17:56:33] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 17:56:33] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 17:56:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 17:56:33] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 17:56:33] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 17:56:33] [PYTHON] Process exited with code 1
+[2025-11-05 18:02:38] Python process started with PID 12004
+[2025-11-05 18:02:38] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 18:02:38] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 18:02:38] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 18:02:38] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 18:02:38] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 18:02:38] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 18:02:38] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 18:02:38] [PYTHON-ERR]     return future.result()
+[2025-11-05 18:02:38] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 18:02:38] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 18:02:38] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 18:02:38] [PYTHON-ERR]     return await self
+[2025-11-05 18:02:38] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 18:02:38] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 18:02:38] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:02:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 18:02:38] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 18:02:38] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 18:02:38] [PYTHON] Process exited with code 1
+[2025-11-05 18:03:20] Python process started with PID 16032
+[2025-11-05 18:03:21] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 18:03:21] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 18:03:21] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 18:03:21] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 18:03:21] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 18:03:21] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 18:03:21] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 18:03:21] [PYTHON-ERR]     return future.result()
+[2025-11-05 18:03:21] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 18:03:21] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 18:03:21] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 18:03:21] [PYTHON-ERR]     return await self
+[2025-11-05 18:03:21] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 18:03:21] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 18:03:21] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:03:21] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 18:03:21] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 18:03:21] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 18:03:21] [PYTHON] Process exited with code 1
+[2025-11-05 18:05:52] Python process started with PID 2948
+[2025-11-05 18:05:53] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 18:05:53] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 18:05:53] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 18:05:53] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 18:05:53] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 18:05:53] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 18:05:53] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 18:05:53] [PYTHON-ERR]     return future.result()
+[2025-11-05 18:05:53] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 18:05:53] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 18:05:53] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 18:05:53] [PYTHON-ERR]     return await self
+[2025-11-05 18:05:53] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 18:05:53] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 18:05:53] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:05:53] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 18:05:53] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 18:05:53] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 18:05:53] [PYTHON] Process exited with code 1
+[2025-11-05 18:08:32] Python process started with PID 14900
+[2025-11-05 18:08:33] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 18:08:33] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 18:08:33] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 18:08:33] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 18:08:33] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 18:08:33] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 18:08:33] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 18:08:33] [PYTHON-ERR]     return future.result()
+[2025-11-05 18:08:33] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 18:08:33] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 18:08:33] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 18:08:33] [PYTHON-ERR]     return await self
+[2025-11-05 18:08:33] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 18:08:33] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 18:08:33] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:08:33] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 18:08:33] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 18:08:33] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 18:08:33] [PYTHON] Process exited with code 1
+[2025-11-05 18:13:48] Python process started with PID 15948
+[2025-11-05 18:13:48] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 18:13:48] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 18:13:48] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 18:13:48] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 18:13:48] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 18:13:48] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 18:13:48] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 18:13:48] [PYTHON-ERR]     return future.result()
+[2025-11-05 18:13:48] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 18:13:48] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 18:13:48] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 18:13:48] [PYTHON-ERR]     return await self
+[2025-11-05 18:13:48] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 18:13:48] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 18:13:48] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:13:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 18:13:48] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 18:13:48] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 18:13:48] [PYTHON] Process exited with code 1
+[2025-11-05 18:14:37] Python process started with PID 14480
+[2025-11-05 18:14:38] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in <module>
+[2025-11-05 18:14:38] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-05 18:14:38] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-05 18:14:38] [PYTHON-ERR]     return runner.run(main)
+[2025-11-05 18:14:38] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-05 18:14:38] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-05 18:14:38] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-05 18:14:38] [PYTHON-ERR]     return future.result()
+[2025-11-05 18:14:38] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 107, in main
+[2025-11-05 18:14:38] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765):
+[2025-11-05 18:14:38] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-05 18:14:38] [PYTHON-ERR]     return await self
+[2025-11-05 18:14:38] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-05 18:14:38] [PYTHON-ERR]     server = await self.create_server
+[2025-11-05 18:14:38] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-05 18:14:38] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-05 18:14:38] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-05 18:14:38] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-05 18:14:38] [PYTHON] Process exited with code 1
+[2025-11-06 01:52:32] Python process started with PID 21020
+[2025-11-06 01:52:49] Python process started with PID 3096
+[2025-11-06 01:52:49] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 112, in <module>
+[2025-11-06 01:52:49] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 01:52:49] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 01:52:49] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 01:52:49] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 01:52:49] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 01:52:49] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 01:52:49] [PYTHON-ERR]     return future.result()
+[2025-11-06 01:52:49] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 109, in main
+[2025-11-06 01:52:49] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 01:52:49] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 01:52:49] [PYTHON-ERR]     return await self
+[2025-11-06 01:52:49] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 01:52:49] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 01:52:49] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:52:49] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 01:52:49] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 01:52:49] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 01:52:50] [PYTHON] Process exited with code 1
+[2025-11-06 01:53:04] Python process started with PID 14816
+[2025-11-06 01:53:05] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 112, in <module>
+[2025-11-06 01:53:05] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 01:53:05] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 01:53:05] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 01:53:05] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 01:53:05] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 01:53:05] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 01:53:05] [PYTHON-ERR]     return future.result()
+[2025-11-06 01:53:05] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 109, in main
+[2025-11-06 01:53:05] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 01:53:05] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 01:53:05] [PYTHON-ERR]     return await self
+[2025-11-06 01:53:05] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 01:53:05] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 01:53:05] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:53:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 01:53:05] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 01:53:05] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 01:53:05] [PYTHON] Process exited with code 1
+[2025-11-06 01:53:24] Python process started with PID 3496
+[2025-11-06 01:53:25] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 112, in <module>
+[2025-11-06 01:53:25] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 01:53:25] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 01:53:25] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 01:53:25] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 01:53:25] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 01:53:25] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 01:53:25] [PYTHON-ERR]     return future.result()
+[2025-11-06 01:53:25] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 109, in main
+[2025-11-06 01:53:25] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 01:53:25] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 01:53:25] [PYTHON-ERR]     return await self
+[2025-11-06 01:53:25] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 01:53:25] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 01:53:25] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:53:25] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 01:53:25] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 01:53:25] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 01:53:25] [PYTHON] Process exited with code 1
+[2025-11-06 01:54:23] Python process started with PID 10456
+[2025-11-06 01:54:23] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 112, in <module>
+[2025-11-06 01:54:23] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 01:54:23] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 01:54:23] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 01:54:23] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 01:54:23] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 01:54:23] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 01:54:23] [PYTHON-ERR]     return future.result()
+[2025-11-06 01:54:23] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 109, in main
+[2025-11-06 01:54:23] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 01:54:23] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 01:54:23] [PYTHON-ERR]     return await self
+[2025-11-06 01:54:23] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 01:54:23] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 01:54:23] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:54:23] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 01:54:23] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 01:54:23] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 01:54:23] [PYTHON] Process exited with code 1
+[2025-11-06 01:54:56] Python process started with PID 6016
+[2025-11-06 01:54:56] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 112, in <module>
+[2025-11-06 01:54:56] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 01:54:56] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 01:54:56] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 01:54:56] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 01:54:56] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 01:54:56] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 01:54:56] [PYTHON-ERR]     return future.result()
+[2025-11-06 01:54:56] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 109, in main
+[2025-11-06 01:54:56] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 01:54:56] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 01:54:56] [PYTHON-ERR]     return await self
+[2025-11-06 01:54:56] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 01:54:56] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 01:54:56] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 01:54:56] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 01:54:56] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 01:54:56] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 01:54:56] [PYTHON] Process exited with code 1
+[2025-11-06 02:03:08] Python process started with PID 9008
+[2025-11-06 02:03:09] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 113, in <module>
+[2025-11-06 02:03:09] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 02:03:09] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 02:03:09] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 02:03:09] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 02:03:09] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 02:03:09] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 02:03:09] [PYTHON-ERR]     return future.result()
+[2025-11-06 02:03:09] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-06 02:03:09] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 02:03:09] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 02:03:09] [PYTHON-ERR]     return await self
+[2025-11-06 02:03:09] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 02:03:09] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 02:03:09] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:03:09] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 02:03:09] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 02:03:09] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 02:03:09] [PYTHON] Process exited with code 1
+[2025-11-06 02:06:19] Python process started with PID 24080
+[2025-11-06 02:08:56] Python process started with PID 2132
+[2025-11-06 02:08:57] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 113, in <module>
+[2025-11-06 02:08:57] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 02:08:57] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 02:08:57] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 02:08:57] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 02:08:57] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 02:08:57] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 02:08:57] [PYTHON-ERR]     return future.result()
+[2025-11-06 02:08:57] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-06 02:08:57] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 02:08:57] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 02:08:57] [PYTHON-ERR]     return await self
+[2025-11-06 02:08:57] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 02:08:57] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 02:08:57] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:08:57] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 02:08:57] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 02:08:57] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 02:08:57] [PYTHON] Process exited with code 1
+[2025-11-06 02:10:55] Python process started with PID 16196
+[2025-11-06 02:10:55] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 113, in <module>
+[2025-11-06 02:10:55] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 02:10:55] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 02:10:55] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 02:10:55] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 02:10:55] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 02:10:55] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 02:10:55] [PYTHON-ERR]     return future.result()
+[2025-11-06 02:10:55] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-06 02:10:55] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 02:10:55] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 02:10:55] [PYTHON-ERR]     return await self
+[2025-11-06 02:10:55] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 02:10:55] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 02:10:55] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:10:55] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 02:10:55] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 02:10:55] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 02:10:55] [PYTHON] Process exited with code 1
+[2025-11-06 02:15:19] Python process started with PID 21788
+[2025-11-06 02:16:18] Python process started with PID 15892
+[2025-11-06 02:16:18] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 113, in <module>
+[2025-11-06 02:16:18] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 02:16:18] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 02:16:18] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 02:16:18] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 02:16:18] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 02:16:18] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 02:16:18] [PYTHON-ERR]     return future.result()
+[2025-11-06 02:16:18] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-06 02:16:18] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 02:16:18] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 02:16:18] [PYTHON-ERR]     return await self
+[2025-11-06 02:16:18] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 02:16:18] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 02:16:18] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:16:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 02:16:18] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 02:16:18] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 02:16:18] [PYTHON] Process exited with code 1
+[2025-11-06 02:18:15] Python process started with PID 23200
+[2025-11-06 02:18:16] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 113, in <module>
+[2025-11-06 02:18:16] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 02:18:16] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 02:18:16] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 02:18:16] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 02:18:16] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 02:18:16] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 02:18:16] [PYTHON-ERR]     return future.result()
+[2025-11-06 02:18:16] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-06 02:18:16] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 02:18:16] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 02:18:16] [PYTHON-ERR]     return await self
+[2025-11-06 02:18:16] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 02:18:16] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 02:18:16] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:18:16] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 02:18:16] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 02:18:16] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 02:18:16] [PYTHON] Process exited with code 1
+[2025-11-06 02:21:44] Python process started with PID 12016
+[2025-11-06 02:21:44] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 113, in <module>
+[2025-11-06 02:21:44] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 02:21:44] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 02:21:44] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 02:21:44] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 02:21:44] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 02:21:44] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 02:21:44] [PYTHON-ERR]     return future.result()
+[2025-11-06 02:21:44] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-06 02:21:44] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 02:21:44] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 02:21:44] [PYTHON-ERR]     return await self
+[2025-11-06 02:21:44] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 02:21:44] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 02:21:44] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:21:44] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 02:21:44] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 02:21:44] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 02:21:44] [PYTHON] Process exited with code 1
+[2025-11-06 02:25:22] Python process started with PID 3164
+[2025-11-06 02:25:22] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 113, in <module>
+[2025-11-06 02:25:22] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 02:25:22] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 02:25:22] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 02:25:22] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 02:25:22] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 02:25:22] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 02:25:22] [PYTHON-ERR]     return future.result()
+[2025-11-06 02:25:22] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 110, in main
+[2025-11-06 02:25:22] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 02:25:22] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 02:25:22] [PYTHON-ERR]     return await self
+[2025-11-06 02:25:22] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 02:25:22] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 02:25:22] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 02:25:22] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 02:25:22] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 02:25:22] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 02:25:22] [PYTHON] Process exited with code 1
+[2025-11-06 13:14:00] Python process started with PID 16692
+[2025-11-06 13:23:28] Python process started with PID 21748
+[2025-11-06 13:23:28] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 78, in <module>
+[2025-11-06 13:23:28] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:23:28] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:23:28] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:23:28] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:23:28] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:23:28] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:23:28] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:23:28] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 75, in main
+[2025-11-06 13:23:28] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:23:28] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:23:28] [PYTHON-ERR]     return await self
+[2025-11-06 13:23:28] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:23:28] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:23:28] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:23:28] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:23:28] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:23:28] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:23:28] [PYTHON] Process exited with code 1
+[2025-11-06 13:24:05] Python process started with PID 20916
+[2025-11-06 13:24:05] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 78, in <module>
+[2025-11-06 13:24:05] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:24:05] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:24:05] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:24:05] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:24:05] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:24:05] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:24:05] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:24:05] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 75, in main
+[2025-11-06 13:24:05] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:24:05] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:24:05] [PYTHON-ERR]     return await self
+[2025-11-06 13:24:05] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:24:05] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:24:05] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:24:05] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:24:05] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:24:05] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:24:05] [PYTHON] Process exited with code 1
+[2025-11-06 13:26:47] Python process started with PID 21900
+[2025-11-06 13:26:48] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 78, in <module>
+[2025-11-06 13:26:48] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:26:48] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:26:48] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:26:48] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:26:48] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:26:48] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:26:48] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:26:48] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 75, in main
+[2025-11-06 13:26:48] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:26:48] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:26:48] [PYTHON-ERR]     return await self
+[2025-11-06 13:26:48] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:26:48] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:26:48] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:26:48] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:26:48] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:26:48] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:26:48] [PYTHON] Process exited with code 1
+[2025-11-06 13:32:08] Python process started with PID 19260
+[2025-11-06 13:32:08] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 88, in <module>
+[2025-11-06 13:32:08] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:32:08] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:32:08] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:32:08] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:32:08] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:32:08] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:32:08] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:32:08] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 85, in main
+[2025-11-06 13:32:08] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:32:08] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:32:08] [PYTHON-ERR]     return await self
+[2025-11-06 13:32:08] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:32:08] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:32:08] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:32:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:32:08] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:32:08] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:32:08] [PYTHON] Process exited with code 1
+[2025-11-06 13:33:09] Python process started with PID 20252
+[2025-11-06 13:33:35] Python process started with PID 20752
+[2025-11-06 13:33:36] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 88, in <module>
+[2025-11-06 13:33:36] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:33:36] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:33:36] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:33:36] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:33:36] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:33:36] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:33:36] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:33:36] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 85, in main
+[2025-11-06 13:33:36] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:33:36] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:33:36] [PYTHON-ERR]     return await self
+[2025-11-06 13:33:36] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:33:36] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:33:36] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:33:36] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:33:36] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:33:36] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:33:36] [PYTHON] Process exited with code 1
+[2025-11-06 13:34:11] Python process started with PID 20028
+[2025-11-06 13:34:11] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 88, in <module>
+[2025-11-06 13:34:11] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:34:11] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:34:11] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:34:11] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:34:11] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:34:11] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:34:11] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:34:11] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 85, in main
+[2025-11-06 13:34:11] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:34:11] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:34:11] [PYTHON-ERR]     return await self
+[2025-11-06 13:34:11] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:34:11] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:34:11] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:34:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:34:11] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:34:11] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:34:11] [PYTHON] Process exited with code 1
+[2025-11-06 13:35:03] Python process started with PID 17476
+[2025-11-06 13:35:52] Python process started with PID 2256
+[2025-11-06 13:35:52] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 88, in <module>
+[2025-11-06 13:35:52] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:35:52] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:35:52] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:35:52] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:35:52] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:35:52] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:35:52] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:35:52] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 85, in main
+[2025-11-06 13:35:52] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:35:52] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:35:52] [PYTHON-ERR]     return await self
+[2025-11-06 13:35:52] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:35:52] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:35:52] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:35:52] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:35:52] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:35:52] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:35:52] [PYTHON] Process exited with code 1
+[2025-11-06 13:37:23] Python process started with PID 17160
+[2025-11-06 13:38:45] Python process started with PID 2888
+[2025-11-06 13:38:46] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 88, in <module>
+[2025-11-06 13:38:46] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:38:46] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:38:46] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:38:46] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:38:46] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:38:46] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:38:46] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:38:46] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 85, in main
+[2025-11-06 13:38:46] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:38:46] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:38:46] [PYTHON-ERR]     return await self
+[2025-11-06 13:38:46] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:38:46] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:38:46] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:38:46] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:38:46] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:38:46] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:38:46] [PYTHON] Process exited with code 1
+[2025-11-06 13:39:07] Python process started with PID 16400
+[2025-11-06 13:39:08] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 88, in <module>
+[2025-11-06 13:39:08] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:39:08] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:39:08] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:39:08] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:39:08] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:39:08] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:39:08] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:39:08] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 85, in main
+[2025-11-06 13:39:08] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:39:08] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:39:08] [PYTHON-ERR]     return await self
+[2025-11-06 13:39:08] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:39:08] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:39:08] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:39:08] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:39:08] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:39:08] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:39:08] [PYTHON] Process exited with code 1
+[2025-11-06 13:40:03] Python process started with PID 10428
+[2025-11-06 13:40:03] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 84, in <module>
+[2025-11-06 13:40:03] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:40:03] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:40:03] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:40:03] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:40:03] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:40:03] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:40:03] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:40:03] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 81, in main
+[2025-11-06 13:40:03] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:40:03] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:40:03] [PYTHON-ERR]     return await self
+[2025-11-06 13:40:03] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:40:03] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:40:03] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:40:03] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:40:03] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:40:03] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:40:03] [PYTHON] Process exited with code 1
+[2025-11-06 13:43:12] Python process started with PID 2196
+[2025-11-06 13:44:10] Python process started with PID 17080
+[2025-11-06 13:44:11] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 84, in <module>
+[2025-11-06 13:44:11] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:44:11] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:44:11] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:44:11] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:44:11] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:44:11] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:44:11] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:44:11] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 81, in main
+[2025-11-06 13:44:11] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:44:11] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:44:11] [PYTHON-ERR]     return await self
+[2025-11-06 13:44:11] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:44:11] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:44:11] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:44:11] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:44:11] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:44:11] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:44:11] [PYTHON] Process exited with code 1
+[2025-11-06 13:48:00] Python process started with PID 3536
+[2025-11-06 13:48:17] Python process started with PID 16860
+[2025-11-06 13:48:18] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 84, in <module>
+[2025-11-06 13:48:18] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:48:18] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:48:18] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:48:18] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:48:18] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:48:18] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:48:18] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:48:18] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 81, in main
+[2025-11-06 13:48:18] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:48:18] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:48:18] [PYTHON-ERR]     return await self
+[2025-11-06 13:48:18] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:48:18] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:48:18] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:48:18] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:48:18] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:48:18] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:48:18] [PYTHON] Process exited with code 1
+[2025-11-06 13:50:48] Python process started with PID 9360
+[2025-11-06 13:50:49] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:50:49] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 84, in <module>
+[2025-11-06 13:50:49] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:50:49] [PYTHON] Process exited with code 1
+[2025-11-06 13:51:39] Python process started with PID 16332
+[2025-11-06 13:51:39] [PYTHON-ERR] Traceback (most recent call last):
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 84, in <module>
+[2025-11-06 13:51:39] [PYTHON-ERR]     asyncio.run(main())
+[2025-11-06 13:51:39] [PYTHON-ERR]     ~~~~~~~~~~~^^^^^^^^
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+[2025-11-06 13:51:39] [PYTHON-ERR]     return runner.run(main)
+[2025-11-06 13:51:39] [PYTHON-ERR]            ~~~~~~~~~~^^^^^^
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+[2025-11-06 13:51:39] [PYTHON-ERR]     return self._loop.run_until_complete(task)
+[2025-11-06 13:51:39] [PYTHON-ERR]            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+[2025-11-06 13:51:39] [PYTHON-ERR]     return future.result()
+[2025-11-06 13:51:39] [PYTHON-ERR]            ~~~~~~~~~~~~~^^
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "D:\ky5\PBL4\PBL4\PBL4\Python\Run_server.py", line 81, in main
+[2025-11-06 13:51:39] [PYTHON-ERR]     async with websockets.serve(stream_camera, "0.0.0.0", 8765,ping_interval=None):
+[2025-11-06 13:51:39] [PYTHON-ERR]                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 813, in __aenter__
+[2025-11-06 13:51:39] [PYTHON-ERR]     return await self
+[2025-11-06 13:51:39] [PYTHON-ERR]            ^^^^^^^^^^
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\websockets\asyncio\server.py", line 831, in __await_impl__
+[2025-11-06 13:51:39] [PYTHON-ERR]     server = await self.create_server
+[2025-11-06 13:51:39] [PYTHON-ERR]              ^^^^^^^^^^^^^^^^^^^^^^^^
+[2025-11-06 13:51:39] [PYTHON-ERR]   File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 1630, in create_server
+[2025-11-06 13:51:39] [PYTHON-ERR]     raise OSError(err.errno, msg) from None
+[2025-11-06 13:51:39] [PYTHON-ERR] OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8765): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+[2025-11-06 13:51:39] [PYTHON] Process exited with code 1
