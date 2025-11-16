@@ -24,8 +24,6 @@ namespace PBL4.View
         public GiaoDienChinh()
         {
             InitializeComponent();
-            PBL4.ViewModel.ViewModelGiaoDienChinh viewModel = new PBL4.ViewModel.ViewModelGiaoDienChinh();
-            DataContext = viewModel;
         }
         protected override async void OnClosed(EventArgs e)
         {

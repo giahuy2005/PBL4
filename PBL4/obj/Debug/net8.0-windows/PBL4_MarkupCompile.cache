@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\App.xaml
-31458014413
+5-140663474
 
-12-993344165
-201-1993803496
-ResourceDictionary.xaml;View\GiaoDienChinh.xaml;View\MainWindow.xaml;
+161059774899
+202-2014965897
+ResourceDictionary.xaml;UserControls\LoadingSignInUC.xaml;UserControls\SignInUC.xaml;View\GiaoDienChinh.xaml;View\MainWindow.xaml;
 
 False
 

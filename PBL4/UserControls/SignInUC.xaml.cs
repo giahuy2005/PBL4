@@ -23,8 +23,6 @@ namespace PBL4.UserControls
         public SignInUC()
         {
             InitializeComponent();
-            PBL4.ViewModel.ViewModelSignInUC viewModel = new PBL4.ViewModel.ViewModelSignInUC();
-            DataContext = viewModel;
         }
     }
 }

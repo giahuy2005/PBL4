@@ -18,12 +18,12 @@ namespace PBL4.ViewModel
     partial class ViewModelGiaoDienChinh : ObservableObject
     {
         public ObservableCollection<CameraModel> Cameras { get; } = new();
-        private CameraClient _client = new CameraClient();
+        private CameraClient _client;
         [ObservableProperty]
         private string stateServer= "off";
-        public ViewModelGiaoDienChinh()
+        public ViewModelGiaoDienChinh(CameraClient client)
         {
-            
+            _client = client;
             _client.FrameReceived += OnFrameReceived;
             _client.PropertyChanged += (s, e) =>
             {
@@ -51,11 +51,6 @@ namespace PBL4.ViewModel
             }
         }
 
-        public void runPythonScript(string python_path, string script_path)
-        {
-
-            RunPython.Instance.RunPythonScript(python_path, script_path);
-        }
         public async Task StopServer()
         {
             try
@@ -76,54 +71,17 @@ namespace PBL4.ViewModel
         }
 
 
-        [RelayCommand]
-        public async Task StartServer()
-        {
-            // massage box
-            System.Windows.MessageBox.Show("Starting camera...");
-            //C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe
-            string python_path = @"C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe";
-            //D:\kỳ 5\PBL4\PBL4\PBL4\Python\get_camera.py      
-            string script_path = @"D:\Hoang Lan\DEV\PBL4\PBL4\Py\Run_server.py";
-            runPythonScript(python_path, script_path);
-            int retryCount = 0;
-            while (true) {
-                if (IsPortOpen("127.0.0.1", 36000))
-                {
-                    MessageBox.Show("đã thấy server");
-                    break;
-                }
-                else
-                {
-                    retryCount++; 
-                    if (retryCount > 10)
-                    {
-                        MessageBox.Show("Không thể kết nối đến server sau nhiều lần thử.", "Lỗi Kết Nối", MessageBoxButton.OK, MessageBoxImage.Error);
-                        return;
-                    }
-                    MessageBox.Show("chưa thấy server, thử lại sau 1s");
-                    await Task.Delay(1000); 
-                }
-               
-            }
-            await ConnectToServer();
-        }
+       
         [RelayCommand]
         public async Task StartVideo()
         {
             string cam_id = "cam1"; 
-            string url = "http://admin:admin@192.168.100.217:39000/video";
+            string url = "http://admin:admin@192.168.110.224:39000/video";
             if (_client.check_ws()) 
             {
                 MessageBox.Show("Bắt đầu video");
                  await _client.StartCamera(cam_id, url);
             }
-        }
-        private async Task ConnectToServer()
-        {
-            string uri = "ws://localhost:36000";
-            await _client.ConnectAsync(uri);
-
         }
 
         private void OnFrameReceived(string camId, BitmapImage? image)

@@ -7,6 +7,10 @@
     <sys:Double x:Key="ButtonHeight">35</sys:Double>
     <sys:Double x:Key="InputWidth">200</sys:Double>
     <sys:Double x:Key="InputHeight">50</sys:Double>
+    <!-- Định nghĩa cho textblock-->
+    <SolidColorBrush x:Key="DesignForegroundTextBlock" Color="#2A648C"/>
+    <sys:Double x:Key="SizeText">20</sys:Double> 
+    <!--end-->
     
     <SolidColorBrush x:Key="MaterialDesignFloatingHintForeground" Color="#235678"/>
     <SolidColorBrush x:Key="MauChu" Color="Black"></SolidColorBrush>
@@ -14,6 +18,7 @@
     <SolidColorBrush x:Key="CustomFocusBrush" Color="#235678"/>
     <SolidColorBrush x:Key="MauButtonNormal" Color="#2A648C"/>
     <SolidColorBrush x:Key="MauButtonPressed" Color="#225678"/>
+    
     <Style x:Key="Textbox1" TargetType="TextBox" BasedOn="{StaticResource MaterialDesignOutlinedTextBox}">
         <Setter Property="Background" Value="White"/>
         <Setter Property="BorderBrush" Value="Gray"/>
@@ -26,7 +31,35 @@
             </Trigger>
         </Style.Triggers>
     </Style>
+    <Style x:Key="button_event_scale" TargetType="Button">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <ScaleTransform ScaleX="1" ScaleY="1"/>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <ContentPresenter/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="RenderTransform">
+                    <Setter.Value>
+                        <ScaleTransform ScaleX="1.2" ScaleY="1.2"/>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
 
+    
     <Style x:Key="Passwordbox1" TargetType="PasswordBox" BasedOn="{StaticResource MaterialDesignOutlinedPasswordBox}">
         <Setter Property="Background" Value="White"/>
         <Setter Property="BorderBrush" Value="Gray"/>

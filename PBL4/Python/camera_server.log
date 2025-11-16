@@ -1,26 +1,11 @@
-2025-11-12 09:31:13,565 [INFO] Server starting ws://0.0.0.0:36000
-2025-11-12 09:31:13,643 [INFO] server listening on 0.0.0.0:36000
-2025-11-12 09:31:14,029 [INFO] connection failed (400 Bad Request)
-2025-11-12 09:31:14,029 [INFO] connection closed
-2025-11-12 09:31:17,501 [INFO] connection open
-2025-11-12 09:31:17,501 [INFO] Client connected
-2025-11-12 09:31:33,744 [ERROR] Không m\u1edf \u0111\u01b0\u1ee3c camera cam1
-2025-11-12 09:32:03,224 [INFO] Thread start camera cam1
-2025-11-12 09:32:03,224 [INFO] Added camera cam1
-2025-11-12 09:32:04,247 [INFO] \u0110ã g\u1eedi 30 frame t\u1edbi client
-2025-11-12 09:32:05,247 [INFO] \u0110ã g\u1eedi 60 frame t\u1edbi client
-2025-11-12 09:32:06,241 [INFO] \u0110ã g\u1eedi 90 frame t\u1edbi client
-2025-11-12 09:32:07,238 [INFO] \u0110ã g\u1eedi 120 frame t\u1edbi client
-2025-11-12 09:32:08,236 [INFO] \u0110ã g\u1eedi 150 frame t\u1edbi client
-2025-11-12 09:32:09,231 [INFO] \u0110ã g\u1eedi 180 frame t\u1edbi client
-2025-11-12 09:32:10,240 [INFO] \u0110ã g\u1eedi 210 frame t\u1edbi client
-2025-11-12 09:32:11,229 [INFO] \u0110ã g\u1eedi 240 frame t\u1edbi client
-2025-11-12 09:32:12,250 [INFO] \u0110ã g\u1eedi 270 frame t\u1edbi client
-2025-11-12 09:32:13,083 [INFO] Received shutdown command
-2025-11-12 09:32:13,083 [INFO] Cleaned up client tasks
-2025-11-12 09:32:13,083 [INFO] Shutting down server...
-2025-11-12 09:32:13,084 [INFO] server closing
-2025-11-12 09:32:13,110 [INFO] Thread stop camera cam1
-2025-11-12 09:32:13,177 [INFO] connection closed
-2025-11-12 09:32:13,177 [INFO] server closed
-2025-11-12 09:32:13,177 [INFO] Server stopped cleanly.
+2025-11-16 18:25:23,921 [INFO] Server starting ws://0.0.0.0:36000
+2025-11-16 18:25:23,972 [INFO] server listening on 0.0.0.0:36000
+2025-11-16 18:25:27,771 [INFO] connection open
+2025-11-16 18:25:27,771 [INFO] Client connected
+2025-11-16 18:25:39,375 [INFO] Received shutdown command
+2025-11-16 18:25:39,375 [INFO] Cleaned up client tasks
+2025-11-16 18:25:39,376 [INFO] Shutting down server...
+2025-11-16 18:25:39,376 [INFO] server closing
+2025-11-16 18:25:39,390 [INFO] connection closed
+2025-11-16 18:25:39,390 [INFO] server closed
+2025-11-16 18:25:39,390 [INFO] Server stopped cleanly.

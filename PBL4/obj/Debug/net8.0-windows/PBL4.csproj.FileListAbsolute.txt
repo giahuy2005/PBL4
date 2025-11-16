@@ -90,3 +90,8 @@ D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL
 D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.pdb
 D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\PBL4.genruntimeconfig.cache
 D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\ref\PBL4.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\UserControls\SignInUC.g.cs
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\UserControls\SignInUC.baml
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\bin\Debug\net8.0-windows\WpfAnimatedGif.dll
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\UserControls\LoadingSignInUC.g.cs
+D:\ky5\PBL4\PBL4_Truy_xuat_va_quan_ly_du_lieu_hinh_anh_Camera_thong_qua_mang\PBL4\PBL4\obj\Debug\net8.0-windows\UserControls\LoadingSignInUC.baml

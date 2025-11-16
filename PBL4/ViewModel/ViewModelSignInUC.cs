@@ -11,6 +11,8 @@ namespace PBL4.ViewModel
 {
     public partial class ViewModelSignInUC : ObservableObject
     {
+        public event Action? LoginSucceeded;
+
         [ObservableProperty]
         private string? username;
         [ObservableProperty]
@@ -18,19 +20,9 @@ namespace PBL4.ViewModel
         [RelayCommand]
         void Login()
         {
-            if (Username == "admin" && Password == "admin" || true)
+            if (Username == "admin" && Password == "admin")
             {
-                var GiaoDienChinh = new GiaoDienChinh();
-                GiaoDienChinh.Show();
-                foreach (Window window in Application.Current.Windows)
-                {
-                    if (window is MainWindow)
-                    {
-                        window.Close();
-                        break;
-                    }
-                }
-
+                LoginSucceeded?.Invoke();
             }
             else
             {

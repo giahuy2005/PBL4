@@ -1,4 +1,5 @@
 import signal
+import time
 import cv2
 import asyncio
 import websockets
@@ -61,7 +62,18 @@ async def handle_send(websocket, frame_queue, send_lock):
         except Exception as e:
             logging.error(f"Gửi frame lỗi: {e}")
             break
+async def try_open_camera(url, timeout=3):
+    def open_cam():
+        cap = cv2.VideoCapture(url)
+        ok = cap.isOpened()
+        cap.release()
+        return ok
 
+    try:
+        return await asyncio.wait_for(asyncio.to_thread(open_cam), timeout=timeout)
+    except asyncio.TimeoutError:
+        logging.error("Camera open timeout")
+        return False
 async def stream_camera(websocket):
     logging.info("Client connected")
     connections.add(websocket)
@@ -74,12 +86,10 @@ async def stream_camera(websocket):
             cam_id = data.get("camera")
             url = data.get("url")
             if cmd == "add" and cam_id not in cameras:
-                probe = cv2.VideoCapture(url)
-                if not probe.isOpened():
+                istimeout=try_open_camera(url)
+                if istimeout==False:
                     logging.error(f"Không mở được camera {cam_id}")
-                    await websocket.send(json.dumps({"camera": cam_id, "status": "error"}))
                     continue
-                probe.release()
                 frame_queue = queue.Queue(maxsize=5)
                 stop_flag = threading.Event()
                 cam_thread = CameraThread(cam_id,url,frame_queue,stop_flag)

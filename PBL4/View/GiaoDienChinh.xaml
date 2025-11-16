@@ -1,66 +1,101 @@
 ﻿<Window x:Class="PBL4.View.GiaoDienChinh"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PBL4.View"
         mc:Ignorable="d"
-        Title="GiaoDienChinh" Height="450" Width="800">
+        Icon="/Images/camera.png"
+        Title="BKCamera" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="30"> </RowDefinition>
-            <RowDefinition ></RowDefinition>
-            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="50"> </RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0">
-            <Label
-                Content="{Binding StateServer}"
-                Height="30"
-                Width="30"> 
-                
-            </Label>
+        <Border Grid.Row="0" BorderBrush="#1a3a4f" BorderThickness="1.5">
+            <Grid Background="#28638a" >
+                <StackPanel Orientation="Horizontal">
+                    <Image HorizontalAlignment="Left" Source="/Images/camera-slogan.png" Margin="5,-4,0,0" Width="50" Height="50"/>
+                    <StackPanel HorizontalAlignment="Left" Margin="4,4,0,0">
+                        <TextBlock Text="BKVision" FontSize="16" FontWeight="ExtraBold"></TextBlock>
+                        <TextBlock Text="An ninh thông minh – Cuộc sống an yên" FontSize="10" FontWeight="Bold"> </TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="1">
             
-        </Grid>
-        <Grid Grid.Row="2">
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.23*"> </ColumnDefinition>
+                <ColumnDefinition Width="0.8*"> </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" BorderBrush="#1a3a4f" BorderThickness="1.5,0,1.5,1.5" >
+                <Grid Grid.Column="0" Background="#f8f8f8">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.08*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Border CornerRadius="10" 
+                            Background="White" 
+                            Margin="4,3,4,3"
+                            BorderBrush="#1a3a4f"
+                            BorderThickness="1"
+                            Effect="{DynamicResource MaterialShadowDepth1}" >        
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox x:Name="txtSearch"
+                                     Grid.Column="0"
+                                     FocusVisualStyle="{x:Null}"
+                                     materialDesign:TextFieldAssist.UnderlineBrush="Transparent"
+                                     BorderThickness="0"
+                                     VerticalContentAlignment="Center"
+                                     Background="Transparent"
+                                     Foreground="Black"
+                                     Padding="4,0,0,0"
+                                     Text=""
+                                     materialDesign:HintAssist.Hint="Tìm kiếm"/>
 
-                <Button  HorizontalAlignment="Center" 
-                    Margin="20"
-                    Width="{StaticResource ButtonWidth}" 
-                    Height="{StaticResource ButtonHeight}" 
-                    Style="{StaticResource Button1}"
-                    Content="Load Server"
-                    Command="{Binding StartServerCommand}">
-                </Button>
-                <Button
-                    HorizontalAlignment="Center"
-                    Width="{StaticResource ButtonWidth}"
-                    Height="{StaticResource ButtonHeight}"
-                    Content="Load Video"
-                    Command="{Binding StartVideoCommand}">
-                </Button>
-            </StackPanel>
+                                <Button 
+                                        Margin="3,3,3,3"
+                                        Grid.Column="1"
+                                        Style="{StaticResource button_event_scale}"
+                                        Background="Transparent"
+                                        BorderThickness="0"
+                                        Cursor="Hand"> 
+                                    <Image Source="/Images/search.png" />
+                                </Button>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" Panel.ZIndex="0">
+                            <WrapPanel x:Name="CameraContainer">
+                                <!-- Các UserControl Camera -->
+                            </WrapPanel>
+                        </ScrollViewer>
+                        <Button
+                            Style="{StaticResource button_event_scale}"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Bottom"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Padding="0" Margin="5">
+                            <Image Source="/Images/add.png" Width="40" Height="40"/>
+                        </Button>
 
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border Grid.Column="1" BorderBrush="#1a3a4f" BorderThickness="0,0,1.5,1.5" > 
+                
+            </Border>
         </Grid>
-        <ScrollViewer Grid.Row="1">
-            <ItemsControl ItemsSource="{Binding Cameras}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Orientation="Vertical" Margin="10">
-                            <TextBlock Text="{Binding CamId}" 
-                                       FontWeight="Bold" 
-                                       Foreground="DarkBlue" 
-                                       Margin="0,0,0,5"/>
-                            <Image Source="{Binding Image}" 
-                                   Width="400" 
-                                   Height="250" 
-                                   Stretch="Uniform" 
-                                   Margin="0,0,0,20"/>
-                        </StackPanel>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </ScrollViewer>
     </Grid>
 </Window>

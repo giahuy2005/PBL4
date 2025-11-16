@@ -3,7 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:PBL4"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             StartupUri="View/MainWindow.xaml">
+             StartupUri="View/MainWindow.xaml"
+             xmlns:view="clr-namespace:PBL4.View"
+             xmlns:vm="clr-namespace:PBL4.ViewModel"
+             xmlns:us="clr-namespace:PBL4.UserControls">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -15,8 +18,15 @@
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
                 <ResourceDictionary Source="ResourceDictionary.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+           <!--Gán viewmodel cho LoadingSignInUC-->
+            <DataTemplate DataType="{x:Type vm:ViewModelLoadingSignInUc}">
+                <us:LoadingSignInUC> </us:LoadingSignInUC>
+            </DataTemplate>
+           <!--Gán viewmodel cho Usercontrol SignInUC-->
+            <DataTemplate DataType="{x:Type vm:ViewModelSignInUC}">
+                <us:SignInUC/>
+            </DataTemplate>
+
         </ResourceDictionary>
     </Application.Resources>
-
-
 </Application>
