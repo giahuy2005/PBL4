@@ -1,11 +1,11 @@
-2025-11-25 18:37:02,267 [INFO] Server starting ws://0.0.0.0:36000
-2025-11-25 18:37:02,455 [INFO] server listening on 0.0.0.0:36000
-2025-11-25 18:37:04,186 [INFO] connection open
-2025-11-25 18:37:04,186 [INFO] Client connected
-2025-11-25 18:37:09,944 [INFO] Received shutdown command
-2025-11-25 18:37:09,945 [INFO] Cleaned up client tasks
-2025-11-25 18:37:09,945 [INFO] Shutting down server...
-2025-11-25 18:37:09,945 [INFO] server closing
-2025-11-25 18:37:09,950 [INFO] connection closed
-2025-11-25 18:37:09,950 [INFO] server closed
-2025-11-25 18:37:09,950 [INFO] Server stopped cleanly.
+2025-11-26 13:14:32,716 [INFO] Server starting ws://0.0.0.0:36000
+2025-11-26 13:14:32,783 [INFO] server listening on 0.0.0.0:36000
+2025-11-26 13:14:36,234 [INFO] connection open
+2025-11-26 13:14:36,234 [INFO] Client connected
+2025-11-26 13:14:49,317 [INFO] Received shutdown command
+2025-11-26 13:14:49,318 [INFO] Cleaned up client tasks
+2025-11-26 13:14:49,318 [INFO] Shutting down server...
+2025-11-26 13:14:49,319 [INFO] server closing
+2025-11-26 13:14:49,347 [INFO] connection closed
+2025-11-26 13:14:49,348 [INFO] server closed
+2025-11-26 13:14:49,348 [INFO] Server stopped cleanly.

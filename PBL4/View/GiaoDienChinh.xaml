@@ -41,6 +41,7 @@
                     <Grid Grid.Row="0">
                         <Border CornerRadius="10" 
                             Background="White" 
+                            MaxHeight="30"
                             Margin="4,3,4,3"
                             BorderBrush="#1a3a4f"
                             BorderThickness="1"

@@ -26,7 +26,7 @@
             <DataTemplate DataType="{x:Type vm:ViewModelSignInUC}">
                 <us:SignInUC/>
             </DataTemplate>
-            <!--Gán view Add-->
+            <!--Gán viewmodel cho AddCamera-->
             <DataTemplate DataType="{x:Type vm:ViewModelAddCamera}">
                 <view:AddCamera/>
             </DataTemplate>

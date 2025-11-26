@@ -9,102 +9,111 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
-        Title="Thông tin camera mới" Height="420" Width="320">
+        Title="Thông tin camera mới" Height="390" Width="320">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="85"> </RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-        </Grid.RowDefinitions >
-        <Grid>
-            <Image Source="/Images/information.png" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0"> </Image>
-        </Grid>
-        <Grid Margin="20,15,18,20" Grid.Row="1" >
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <!-- tên camera -->
-                <RowDefinition Height="Auto"/>
-                <!-- url -->
-                <RowDefinition Height="Auto"/>
-                <!-- username -->
-                <RowDefinition Height="Auto"/>
-                <!-- password -->
-                <RowDefinition Height="50"/>
-                <!-- nút -->
-            </Grid.RowDefinitions>
+        <Border  
+            BorderBrush="{StaticResource MauButtonNormal}"
+            BorderThickness="2"
+            Background="#f8f8f8">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions >
 
-            <Grid Grid.Row="0" Margin="0,0,5,10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="40"/>
-                    <!-- icon -->
-                    <ColumnDefinition Width="*"/>
-                    <!-- textbox -->
-                </Grid.ColumnDefinitions>
+                <Grid>
+                    <Image Source="/Images/information.png" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,5,0,0"></Image>
+                </Grid>
+                <Grid Margin="20,18,18,10" Grid.Row="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <!-- tên camera -->
+                        <RowDefinition Height="Auto"/>
+                        <!-- url -->
+                        <RowDefinition Height="Auto"/>
+                        <!-- username -->
+                        <RowDefinition Height="Auto"/>
+                        <!-- password -->
+                        <RowDefinition Height="50"/>
+                        <!-- nút -->
+                    </Grid.RowDefinitions>
 
-                <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/camera.png" Margin="0,0,10,0"/>
-                <TextBox Grid.Column="1"
-                         Height="{StaticResource InputHeight}"
-                         Style="{StaticResource Textbox1}"
-                         materialDesign:HintAssist.Hint="Tên camera"/>
+                    <Grid Grid.Row="0" Margin="0,0,5,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <!-- icon -->
+                            <ColumnDefinition Width="*"/>
+                            <!-- textbox -->
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/camera.png" Margin="0,0,10,0"/>
+                        <TextBox Grid.Column="1"
+                                 Height="{StaticResource InputHeight}"
+                                 Style="{StaticResource Textbox1}"
+                                 materialDesign:HintAssist.Hint="Tên camera"/>
+                    </Grid>
+
+                    <Grid Grid.Row="1" Margin="0,5,5,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/url.png" Margin="0,0,10,0"/>
+                        <TextBox Grid.Column="1"
+                                 Height="{StaticResource InputHeight}"
+                                 Style="{StaticResource Textbox1}"
+                                 materialDesign:HintAssist.Hint="URL camera"/>
+                    </Grid>
+
+                    <Grid Grid.Row="2" Margin="0,0,5,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/username.png" Margin="0,0,10,0"/>
+                        <TextBox Grid.Column="1"
+                                 Height="{StaticResource InputHeight}"
+                                 Style="{StaticResource Textbox1}"
+                                 materialDesign:HintAssist.Hint="Username"/>
+                    </Grid>
+
+                    <Grid Grid.Row="3" Margin="0,0,5,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/password.png" Margin="0,0,10,0"/>
+                        <PasswordBox Grid.Column="1"
+                                     Height="{StaticResource InputHeight}"
+                                     Style="{StaticResource Passwordbox1}"
+                                     materialDesign:HintAssist.Hint="Mật khẩu"/>
+                    </Grid>
+
+                    <StackPanel Grid.Row="4"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                                Margin="0,6,0,0"
+
+                                VerticalAlignment="Center">
+                        <Button Content="Add"
+                                Width="{StaticResource ButtonWidth}"
+                                Height="{StaticResource ButtonHeight}"
+                                Style="{StaticResource Button1}"
+                                Margin="0,0,55,0"/>
+                        <Button Content="Cancel"
+                                Width="{StaticResource ButtonWidth}"
+                                Height="{StaticResource ButtonHeight}"
+                                Background="IndianRed"
+                                Style="{StaticResource Button1}" Click="Close_Click"/>
+                    </StackPanel>
+
+                </Grid>
             </Grid>
+        </Border>
 
-            <Grid Grid.Row="1" Margin="0,5,5,10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="40"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/url.png" Margin="0,0,10,0"/>
-                <TextBox Grid.Column="1"
-                         Height="{StaticResource InputHeight}"
-                         Style="{StaticResource Textbox1}"
-                         materialDesign:HintAssist.Hint="URL camera"/>
-            </Grid>
-
-            <Grid Grid.Row="2" Margin="0,0,5,10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="40"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/username.png" Margin="0,0,10,0"/>
-                <TextBox Grid.Column="1"
-                         Height="{StaticResource InputHeight}"
-                         Style="{StaticResource Textbox1}"
-                         materialDesign:HintAssist.Hint="Username"/>
-            </Grid>
-
-            <Grid Grid.Row="3" Margin="0,0,5,10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="40"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <Image Grid.Column="0" Width="24" Height="24" VerticalAlignment="Center" Source="/Images/password.png" Margin="0,0,10,0"/>
-                <PasswordBox Grid.Column="1"
-                             Height="{StaticResource InputHeight}"
-                             Style="{StaticResource Passwordbox1}"
-                             materialDesign:HintAssist.Hint="Mật khẩu"/>
-            </Grid>
-
-            <StackPanel Grid.Row="4"
-                        Orientation="Horizontal"
-                        HorizontalAlignment="Center"
-                        Margin="0,6,0,0"
-
-                        VerticalAlignment="Center">
-                <Button Content="Add"
-                        Width="{StaticResource ButtonWidth}"
-                        Height="{StaticResource ButtonHeight}"
-                        Style="{StaticResource Button1}"
-                        Margin="0,0,55,0"/>
-                <Button Content="Cancel"
-                        Width="{StaticResource ButtonWidth}"
-                        Height="{StaticResource ButtonHeight}"
-                        Background="IndianRed"
-                        Style="{StaticResource Button1}" Click="Close_Click"/>
-            </StackPanel>
-
-        </Grid>
     </Grid>
 
 </Window>

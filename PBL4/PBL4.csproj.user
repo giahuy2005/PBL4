@@ -2,10 +2,16 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="UserControls\InfoCameraUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UserControls\LoadingSignInUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UserControls\SignInUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddCamera.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\GiaoDienChinh.xaml.cs">
