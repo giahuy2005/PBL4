@@ -31,6 +31,14 @@ namespace PBL4.ViewModel
                     StateServer = _client.ClientState;
             };
         }
+        // sự kiện mở add camera 
+        [RelayCommand]
+        public void OpenAddCameraWindow()
+        {
+            var window = new PBL4.View.AddCamera();
+            window.ShowDialog();
+
+        }
         public void UpdateFrame(BitmapImage new_image)
         {
             if (new_image == null) return;
@@ -54,7 +62,7 @@ namespace PBL4.ViewModel
         public async Task StopServer()
         {
             try
-            {//minh lỏ 
+            {
 
                 await _client.StopServer();
 

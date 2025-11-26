@@ -26,7 +26,10 @@
             <DataTemplate DataType="{x:Type vm:ViewModelSignInUC}">
                 <us:SignInUC/>
             </DataTemplate>
-
+            <!--Gán view Add-->
+            <DataTemplate DataType="{x:Type vm:ViewModelAddCamera}">
+                <view:AddCamera/>
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

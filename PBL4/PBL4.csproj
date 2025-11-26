@@ -12,15 +12,20 @@
     <None Remove="Images\add.png" />
     <None Remove="Images\camera-slogan.png" />
     <None Remove="Images\camera.png" />
+    <None Remove="Images\information.png" />
     <None Remove="Images\loading.gif" />
+    <None Remove="Images\password.png" />
     <None Remove="Images\search.png" />
+    <None Remove="Images\url.png" />
     <None Remove="Images\user-64.png" />
+    <None Remove="Images\username.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="MaterialDesignColors" Version="2.0.3" />
     <PackageReference Include="MaterialDesignThemes" Version="4.2.1" />
+    <PackageReference Include="Supabase" Version="1.1.1" />
     <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
   </ItemGroup>
 
@@ -32,9 +37,13 @@
     <Resource Include="Images\add.png" />
     <Resource Include="Images\camera-slogan.png" />
     <Resource Include="Images\camera.png" />
+    <Resource Include="Images\information.png" />
     <Resource Include="Images\loading.gif" />
+    <Resource Include="Images\password.png" />
     <Resource Include="Images\search.png" />
+    <Resource Include="Images\url.png" />
     <Resource Include="Images\user-64.png" />
+    <Resource Include="Images\username.png" />
   </ItemGroup>
 
 </Project>

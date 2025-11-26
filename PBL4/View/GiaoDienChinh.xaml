@@ -86,6 +86,7 @@
                             VerticalAlignment="Bottom"
                             Background="Transparent"
                             BorderThickness="0"
+                            Command="{Binding OpenAddCameraWindowCommand}"
                             Padding="0" Margin="5">
                             <Image Source="/Images/add.png" Width="40" Height="40"/>
                         </Button>

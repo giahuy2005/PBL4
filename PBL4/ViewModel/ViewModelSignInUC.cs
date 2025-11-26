@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using PBL4.Model.BO;
+using PBL4.Model.Entities;
 namespace PBL4.ViewModel
 {
     public partial class ViewModelSignInUC : ObservableObject
@@ -18,15 +20,31 @@ namespace PBL4.ViewModel
         [ObservableProperty]
         private string? password;
         [RelayCommand]
-        void Login()
+        async void Login()
         {
-            if (Username == "admin" && Password == "admin")
+            // truy cập database 
+            UserBO userBO = new UserBO();
+            if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
             {
-                LoginSucceeded?.Invoke();
+                MessageBox.Show("Username và Password không được để trống.");
+                return;
             }
-            else
+            try
             {
-                System.Windows.MessageBox.Show("Invalid username or password.");
+                bool result = await userBO.CheckUserLogin(Username, Password);
+                if (result)
+                {
+                    LoginSucceeded?.Invoke();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid username or password.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
         }
         public ViewModelSignInUC()

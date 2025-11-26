@@ -30,6 +30,7 @@ namespace PBL4.Services
                 MessageBox.Show($"Lỗi khi kết nối tới server: {ex.Message}", "WebSocket");
                 return;
             }
+            // check lỗi
           //  MessageBox.Show("Kết nối WebSocket thành công!", "Thông báo");
             ClientState="on";
             _ = Task.Run(async () => await ReceiveLoop());
