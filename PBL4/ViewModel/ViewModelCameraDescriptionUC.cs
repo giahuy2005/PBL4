@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using PBL4.Model;
 
 namespace PBL4.ViewModel
 {
@@ -21,10 +22,10 @@ namespace PBL4.ViewModel
         private string password;
         // hàm event báo về để tắt view 
         public event Action? IsClose;
-        public ViewModelCameraDescriptionUC(Model.Entities.Cameras Cam)
+        public ViewModelCameraDescriptionUC(CameraModel Cam)
         {
             Namecamera = Cam.NameCamera ?? "";
-            Url = Cam.URL ?? "";
+            Url = Cam.Url ?? "";
             Nameuser = Cam.NameUser ?? "";
             Password = Cam.Password ?? "";
         }

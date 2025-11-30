@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using PBL4.Model;
 using PBL4.Model.Entities;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace PBL4.ViewModel
         [ObservableProperty]
         private ObservableObject? currentView;
 
-        public ViewModelCameraDescription(Cameras Cam)
+        public ViewModelCameraDescription(CameraModel Cam)
         {
             // khởi tạo các viewmodel con
             ViewModelCameraDescriptionUC viewmodel = new ViewModelCameraDescriptionUC(Cam);

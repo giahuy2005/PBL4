@@ -48,7 +48,7 @@ namespace PBL4.Services
             }
             return true;
         }
-        public async Task StartCamera(string camId, string url)
+        public async Task StartCamera(string camId, string url,string user,string admin )
         {
             if (_ws == null)
             {
@@ -61,11 +61,12 @@ namespace PBL4.Services
                 MessageBox.Show($"WebSocket không ở trạng thái Open (hiện tại: {_ws.State})", "Lỗi WebSocket");
                 return;
             }
+            string fullurl = BuildCameraUrl(url, user, admin);
             var message = new
             {
                 cmd = "add",
                 camera = camId,
-                url = url
+                url = fullurl
             };
             string json = JsonSerializer.Serialize(message);
 
@@ -136,18 +137,45 @@ namespace PBL4.Services
 
             await CloseAsync();
         }
-        public async Task<bool> CheckCamera(string camID,string url)
+        private string BuildCameraUrl(string url, string user, string pass)
+        {
+            if (string.IsNullOrWhiteSpace(url))
+                return url;
+
+            bool hasCredential = !string.IsNullOrWhiteSpace(user) && !string.IsNullOrWhiteSpace(pass);
+
+            if (!Uri.TryCreate(url, UriKind.Absolute, out Uri? uri))
+                return url; // nếu URL không hợp lệ thì trả nguyên
+
+            string scheme = uri.Scheme.ToLower();
+
+            // Không chèn cho onvif (theo yêu cầu trước)
+            if (scheme == "onvif")
+                return url;
+
+            if (!hasCredential)
+                return url;
+
+            // Nếu URL đã có userinfo thì thay thế
+            var hostWithPort = uri.IsDefaultPort ? uri.Host : $"{uri.Host}:{uri.Port}";
+            // Cách an toàn hơn: giữ path và query
+            var pathAndQuery = uri.PathAndQuery; // bao gồm / và ?...
+
+            // Build lại với user:pass và port nếu có
+            return $"{uri.Scheme}://{user}:{pass}@{hostWithPort}{pathAndQuery}";
+        }
+        public async Task<bool> CheckCamera(string camID,string url,string user,string pass)
         {
             if (!check_ws())
                 return false;
 
             _checkCameraTcs = new TaskCompletionSource<bool>();
-
+            string fullurl =  BuildCameraUrl(url,user,pass);
             var message = new
             {
                 cmd = "check",
                 camera = camID,
-                url = url
+                url = fullurl
             };
 
             string json = JsonSerializer.Serialize(message);

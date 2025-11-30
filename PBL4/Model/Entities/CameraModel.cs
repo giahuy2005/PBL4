@@ -15,7 +15,23 @@ namespace PBL4.Model
         private string camId = "";
 
         [ObservableProperty]
+        private string nameCamera = "";
+
+        [ObservableProperty]
+        private string url = "";
+
+        [ObservableProperty]
+        public string nameUser;
+        [ObservableProperty]
+        public string? password; 
+        [ObservableProperty]
+        private bool isStreaming;
+        [ObservableProperty]
+        private bool isLoading;
+
+        [ObservableProperty]
         private BitmapImage? image;
     }
 }
+
 

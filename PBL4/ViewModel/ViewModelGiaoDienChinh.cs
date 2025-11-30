@@ -21,10 +21,10 @@ namespace PBL4.ViewModel
     partial class ViewModelGiaoDienChinh : ObservableObject
     {
         public ObservableCollection<CameraModel> Cameras { get; } = new();
-        public ObservableCollection<Cameras> UserCameraList { get; } = new();
-        // báo để biết camera nào được chọn
+        public ObservableCollection<CameraModel> ActiveCameras { get; } = new();
+        public ObservableCollection<CameraModel> UserCameraList { get; } = new();      
         [ObservableProperty]
-        private Cameras selectedCamera;
+        private CameraModel selectedCamera;  // báo để biết camera nào được chọn
         private CameraClient _client;
         private User? user;
 
@@ -38,7 +38,7 @@ namespace PBL4.ViewModel
         }
         // sự kiện khi ấn dô descrip của từng camera
         [RelayCommand]
-        public void OpenCameraDetail(Cameras cam)
+        public void OpenCameraDetail(CameraModel? cam)
         {
             SelectedCamera = cam;
             var window = new PBL4.View.CameraDescription();
@@ -61,26 +61,30 @@ namespace PBL4.ViewModel
 
             try
             {
-                // --- ĐÂY LÀ CHỖ BẠN CẦN ---
-
-                // 1. Gọi BO để lấy danh sách từ DB
                 CamerasBO _camerasBO = new CamerasBO();
-                var listCamFromDB = await _camerasBO.LoadCamerasByUserIdAsync(user.IdUser);
+                // 1. Lấy dữ liệu thô (Entity)
+                var listEntity = await _camerasBO.LoadCamerasByUserIdAsync(user.IdUser);
 
-                // 2. Gán thẳng vào cái ListCamera của User (đúng ý bạn muốn)
-                user.ListCamera = listCamFromDB;
-
-                // 3. Đổ dữ liệu từ user.ListCamera sang ObservableCollection để hiện lên giao diện
                 UserCameraList.Clear();
-                if (user.ListCamera != null)
+                if (listEntity != null)
                 {
-                    foreach (var cam in user.ListCamera)
+                    foreach (var entity in listEntity)
                     {
-                        UserCameraList.Add(cam);
+                        var model = new CameraModel
+                        {
+                            CamId = entity.IdCamera,
+                            NameCamera = entity.NameCamera,
+                            Url = entity.URL,
+                            NameUser = entity.NameUser,
+                            Password = entity.Password,
+                            IsLoading = false,
+                            IsStreaming = false
+                        };
+                        UserCameraList.Add(model);
                     }
                 }
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Lỗi tải danh sách camera: " + ex.Message);
             }
@@ -123,21 +127,6 @@ namespace PBL4.ViewModel
                 MessageBox.Show($"Lỗi khi dừng server: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
-
-
-       
-        [RelayCommand]
-        public async Task StartVideo()
-        {
-            string cam_id = "cam1"; 
-            string url = "http://admin:admin@192.168.110.224:39000/video";
-            if (_client.check_ws()) 
-            {
-                MessageBox.Show("Bắt đầu video");
-                 await _client.StartCamera(cam_id, url);
-            }
-        }
-
         private void OnFrameReceived(string camId, BitmapImage? image)
         {
             Application.Current.Dispatcher.Invoke(() =>
@@ -152,6 +141,57 @@ namespace PBL4.ViewModel
                     Cameras.Add(new CameraModel { CamId = camId, Image = image });
                 }
             });
+        }
+        [RelayCommand]
+        public async Task ToggleCameraStream(CameraModel model)
+        {
+            if (model == null) return;
+
+            if (model.IsStreaming)
+            {
+                // --- TRƯỜNG HỢP TẮT CAMERA ---
+                model.IsStreaming = false;
+                model.Image = null;
+
+                // Gửi lệnh stop cho server (nếu cần)
+                await _client.StopCamera(model.CamId);
+
+                // Xóa khỏi danh sách hiển thị bên phải
+                if (ActiveCameras.Contains(model))
+                {
+                    ActiveCameras.Remove(model);
+                }
+            }
+            else
+            {
+                // bật camera 
+                model.IsLoading = true; 
+
+                // Giả lập check kết nối (hoặc gọi hàm check thật)
+                bool isOk = await Task.Run(async () =>
+                {
+                    return await _client.CheckCamera(model.CamId, model.Url,model.NameUser,model.Password); 
+                });
+
+                model.IsLoading = false;
+
+                if (isOk)
+                {
+                    model.IsStreaming = true; 
+
+                    // Gửi lệnh start stream thật
+                     await _client.StartCamera(model.CamId, model.Url,model.NameUser,model.Password);
+
+                    if (!ActiveCameras.Contains(model))
+                    {
+                        ActiveCameras.Add(model);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"Không thể kết nối camera {model.NameCamera}");
+                }
+            }
         }
 
 

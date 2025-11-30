@@ -17,6 +17,8 @@
     <None Remove="Images\info25.png" />
     <None Remove="Images\information.png" />
     <None Remove="Images\loading.gif" />
+    <None Remove="Images\LoadingCamera.gif" />
+    <None Remove="Images\OffCamera.png" />
     <None Remove="Images\password.png" />
     <None Remove="Images\search.png" />
     <None Remove="Images\url.png" />
@@ -34,10 +36,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Converter\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="Images\add.png" />
     <Resource Include="Images\add30.png" />
     <Resource Include="Images\camera-slogan.png" />
@@ -46,6 +44,8 @@
     <Resource Include="Images\info25.png" />
     <Resource Include="Images\information.png" />
     <Resource Include="Images\loading.gif" />
+    <Resource Include="Images\LoadingCamera.gif" />
+    <Resource Include="Images\OffCamera.png" />
     <Resource Include="Images\password.png" />
     <Resource Include="Images\search.png" />
     <Resource Include="Images\url.png" />

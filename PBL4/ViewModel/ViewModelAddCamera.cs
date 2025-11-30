@@ -38,33 +38,7 @@ namespace PBL4.ViewModel
             this._client = _client;
 
         }
-        private string BuildCameraUrl(string url, string user, string pass)
-        {
-            if (string.IsNullOrWhiteSpace(url))
-                return url;
-
-            bool hasCredential = !string.IsNullOrWhiteSpace(user) && !string.IsNullOrWhiteSpace(pass);
-
-            if (!Uri.TryCreate(url, UriKind.Absolute, out Uri? uri))
-                return url; // nếu URL không hợp lệ thì trả nguyên
-
-            string scheme = uri.Scheme.ToLower();
-
-            // Không chèn cho onvif (theo yêu cầu trước)
-            if (scheme == "onvif")
-                return url;
-
-            if (!hasCredential)
-                return url;
-
-            // Nếu URL đã có userinfo thì thay thế
-            var hostWithPort = uri.IsDefaultPort ? uri.Host : $"{uri.Host}:{uri.Port}";
-            // Cách an toàn hơn: giữ path và query
-            var pathAndQuery = uri.PathAndQuery; // bao gồm / và ?...
-
-            // Build lại với user:pass và port nếu có
-            return $"{uri.Scheme}://{user}:{pass}@{hostWithPort}{pathAndQuery}";
-        }
+    
 
 
         private async Task OnIsAdd()
@@ -74,9 +48,7 @@ namespace PBL4.ViewModel
             string url = addCameraUC.Url!;
             string user = addCameraUC.Nameuser!;
             string pass = addCameraUC.Password!;
-            string fullUrl = url;
-            fullUrl = BuildCameraUrl(url, user, pass);
-            bool isOk = await _client.CheckCamera("onlycamcheck", fullUrl);
+            bool isOk = await _client.CheckCamera("onlycamcheck", url,user,pass);
 
             if (!isOk)
             {
