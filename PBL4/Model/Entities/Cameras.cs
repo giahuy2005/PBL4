@@ -1,10 +1,11 @@
 ﻿using Supabase.Postgrest.Attributes;
 using Supabase.Postgrest.Models;
+using System.Text.Json.Serialization;
 
 namespace PBL4.Model.Entities
 {
     // Bắt buộc phải kế thừa BaseModel và ánh xạ tới tên bảng DB
-    [Table("Cameras")]
+    [Table("cameras")]
     public class Cameras : BaseModel // <--- PHẢI KẾ THỪA BASEMODEL
     {
         // Khóa chính
@@ -22,8 +23,10 @@ namespace PBL4.Model.Entities
         [Column("password")]
         public string? Password { get; set; }
 
-        public User? User { get; set; }
-
         public Cameras() { }
+        public override string ToString()
+        {
+            return $"{IdCamera}-{IdUser}-{NameCamera} - {URL} - {NameUser} - {Password}";
+        }
     }
 }

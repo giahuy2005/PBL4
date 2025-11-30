@@ -57,5 +57,9 @@ namespace PBL4.Model.BO
 
             return user.Password == password;
         }
+        public Task<User> GetUserByUserNameAsync(string username)
+        {
+            return _userDal.GetUserByUsernameAsync(username);
+        }
     }
 }

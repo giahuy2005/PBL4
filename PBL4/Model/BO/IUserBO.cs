@@ -9,6 +9,7 @@ namespace PBL4.Model.BO
         Task<List<User>> GetAllUsersAsync();
         Task<User> GetUserByIdAsync(string userId);
         Task<User> RegisterUserAsync(User newUser);
+        Task<User> GetUserByUserNameAsync(string username);
         Task<bool> CheckUserLogin(string username, string password);
     }
 }

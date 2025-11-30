@@ -10,22 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PBL4.View
+namespace PBL4.UserControls
 {
     /// <summary>
-    /// Interaction logic for AddCamera.xaml
+    /// Interaction logic for LoadingAddCameraUC.xaml
     /// </summary>
-    public partial class AddCamera : Window
+    public partial class LoadingAddCameraUC : UserControl
     {
-        public AddCamera()
+        public LoadingAddCameraUC()
         {
-             InitializeComponent();
-        }
-        private void Close_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
+            InitializeComponent();
         }
     }
 }

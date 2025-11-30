@@ -30,6 +30,18 @@
             <DataTemplate DataType="{x:Type vm:ViewModelAddCamera}">
                 <view:AddCamera/>
             </DataTemplate>
+            <!--Gán viewmodel cho AddCameraUS-->
+            <DataTemplate DataType="{x:Type vm:ViewModelAddCameraUC}">
+                <us:AddCameraUC></us:AddCameraUC>
+            </DataTemplate>
+            <!--Thêm viewmodel cho loadingcamera-->
+            <DataTemplate DataType="{x:Type vm:ViewModelLoadingAddCameraUC}">
+                <us:LoadingAddCameraUC></us:LoadingAddCameraUC>
+            </DataTemplate>
+            <!--Gán viewmodel cho  CameraDescriptionUC-->
+            <DataTemplate DataType="{x:Type vm:ViewModelCameraDescriptionUC}">
+                <us:CameraDescriptionUC></us:CameraDescriptionUC>
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

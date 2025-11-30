@@ -1,4 +1,4 @@
-﻿<Window x:Class="PBL4.View.AddCamera"
+﻿<Window x:Class="PBL4.View.CameraDescription"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -9,7 +9,7 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
-        Title="Thông tin camera mới" Height="390" Width="320">
+        Title="CameraDescription" Height="390" Width="320">
     <Grid>
         <ContentControl Content="{Binding CurrentView}" />
     </Grid>

@@ -16,8 +16,8 @@ namespace PBL4.Services
     public partial class CameraClient : ObservableObject
     {
         [ObservableProperty]
-        private string clientState = "off";
         private ClientWebSocket _ws = new ClientWebSocket();
+        private TaskCompletionSource<bool>? _checkCameraTcs;
         public event Action<string, BitmapImage?>? FrameReceived;
         public async Task ConnectAsync(string uri)
         {
@@ -31,8 +31,6 @@ namespace PBL4.Services
                 return;
             }
             // check lỗi
-          //  MessageBox.Show("Kết nối WebSocket thành công!", "Thông báo");
-            ClientState="on";
             _ = Task.Run(async () => await ReceiveLoop());
         }
 
@@ -101,7 +99,6 @@ namespace PBL4.Services
                 {
                     _ws.Dispose();
                     _ws = new ClientWebSocket();
-                    ClientState = "off";
                 }
             }
         }
@@ -116,7 +113,6 @@ namespace PBL4.Services
             string json = JsonSerializer.Serialize(message);
             await _ws.SendAsync(Encoding.UTF8.GetBytes(json),
             WebSocketMessageType.Text, true, CancellationToken.None);
-            ClientState="off";
             // báo lên dừng cam_id nào
             Console.WriteLine($"dừng camera có {camId}");
         }
@@ -140,6 +136,36 @@ namespace PBL4.Services
 
             await CloseAsync();
         }
+        public async Task<bool> CheckCamera(string camID,string url)
+        {
+            if (!check_ws())
+                return false;
+
+            _checkCameraTcs = new TaskCompletionSource<bool>();
+
+            var message = new
+            {
+                cmd = "check",
+                camera = camID,
+                url = url
+            };
+
+            string json = JsonSerializer.Serialize(message);
+            await _ws.SendAsync(
+                Encoding.UTF8.GetBytes(json),
+                WebSocketMessageType.Text,
+                true,
+                CancellationToken.None
+            );
+
+            var task = await Task.WhenAny(_checkCameraTcs.Task, Task.Delay(21000));
+
+            if (task != _checkCameraTcs.Task)
+                return false;
+
+            return await _checkCameraTcs.Task;
+        }
+
 
         private async Task ReceiveLoop()
         {
@@ -171,21 +197,56 @@ namespace PBL4.Services
                         {
                             string err = errorProp.GetString()!;
                             MessageBox.Show($"Lỗi từ server: {err}", "Lỗi Server", MessageBoxButton.OK, MessageBoxImage.Error);
+                            _checkCameraTcs?.TrySetResult(false);
+                            continue;
                         }
                         // nếu không nhận lỗi là gì thì là frame
                         else
                         {
-                            string camId = doc.RootElement.GetProperty("camera").GetString()!;
-                            string frameBase64 = doc.RootElement.GetProperty("frame").GetString()!;
-                            //MessageBox.Show($"Đã nhận frame từ camera {camId}", "Thông báo");
-                            var image = new BitmapImage();
-                            image.BeginInit();
-                            image.StreamSource = new MemoryStream(Convert.FromBase64String(frameBase64));
-                            image.CacheOption = BitmapCacheOption.OnLoad;
-                            image.EndInit();
-                            image.Freeze();
+                            string cmd = doc.RootElement.TryGetProperty("cmd", out var cmdProp)
+                            ? cmdProp.GetString()!
+                            : "";
 
-                            FrameReceived?.Invoke(camId, image);
+                            if (cmd == "check_response")
+                            {
+                                string status = doc.RootElement.GetProperty("status").GetString();
+
+                                if (doc.RootElement.TryGetProperty("error", out var errProp))
+                                {
+                                    string errorMsg = errProp.GetString()!;
+                                    MessageBox.Show($"Camera lỗi: {errorMsg}", "Lỗi Camera", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+                                    _checkCameraTcs?.SetResult(false);
+                                    continue;
+                                }
+
+                                if (status != "ok")
+                                {
+                                    _checkCameraTcs?.SetResult(false);
+                                    continue;
+                                }
+                                _checkCameraTcs?.SetResult(true);
+                                continue;
+                            }
+                            else if  (cmd == "add_success")
+                            {
+                                MessageBox.Show("add thành công");
+                                continue;
+                            }
+                            else
+                            {
+                                string camId = doc.RootElement.GetProperty("camera").GetString()!;
+                                string frameBase64 = doc.RootElement.GetProperty("frame").GetString()!;
+                                //MessageBox.Show($"Đã nhận frame từ camera {camId}", "Thông báo");
+                                var image = new BitmapImage();
+                                image.BeginInit();
+                                image.StreamSource = new MemoryStream(Convert.FromBase64String(frameBase64));
+                                image.CacheOption = BitmapCacheOption.OnLoad;
+                                image.EndInit();
+                                image.Freeze();
+
+                                FrameReceived?.Invoke(camId, image);
+                            } 
                         }
                     }
                     catch (Exception ex)

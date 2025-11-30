@@ -9,12 +9,15 @@ using PBL4.View;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using PBL4.Services;
+using PBL4.Model.Entities;
+using PBL4.Model.BO;
 namespace PBL4.ViewModel
 {
     public partial class ViewModelMain : ObservableObject
     {
         [ObservableProperty]
         private ObservableObject? currentView;
+        private string username;
         public ViewModelMain()
         {
             CurrentView = new ViewModelSignInUC();
@@ -37,6 +40,11 @@ namespace PBL4.ViewModel
             //    }
 
             //}
+            // gán username cho thằng viewmodelmain 
+            if ( CurrentView is ViewModelSignInUC signInVM)
+            {
+                username = signInVM.Username;
+            }
             CurrentView = new ViewModelLoadingSignInUc();
             if(CurrentView is ViewModelLoadingSignInUc loadingVM)
             {
@@ -44,7 +52,7 @@ namespace PBL4.ViewModel
                 loadingVM.LoadedSuccess += OnLoadSuccess;
             }
         }
-        private void OnLoadSuccess()
+        private async void OnLoadSuccess()
         {
             var GiaoDienChinh = new GiaoDienChinh();
             GiaoDienChinh.Show();
@@ -65,7 +73,9 @@ namespace PBL4.ViewModel
                     break;
                 }
             }
-            GiaoDienChinh.DataContext = new ViewModelGiaoDienChinh(client);
+            UserBO userbo= new UserBO();
+            User user = await userbo.GetUserByUserNameAsync(username);
+            GiaoDienChinh.DataContext = new ViewModelGiaoDienChinh(client,user);
         }
         private void OnLoadFailed()
         {

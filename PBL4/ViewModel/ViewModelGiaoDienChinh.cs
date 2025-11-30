@@ -13,31 +13,77 @@ using System.Windows;
 using System.Windows.Controls;
 using System.IO;
 using System.Windows.Media.Imaging;
+using System.Printing;
+using PBL4.Model.BO;
+using PBL4.Model.Entities;
 namespace PBL4.ViewModel
 {
     partial class ViewModelGiaoDienChinh : ObservableObject
     {
         public ObservableCollection<CameraModel> Cameras { get; } = new();
-        private CameraClient _client;
+        public ObservableCollection<Cameras> UserCameraList { get; } = new();
+        // báo để biết camera nào được chọn
         [ObservableProperty]
-        private string stateServer= "off";
-        public ViewModelGiaoDienChinh(CameraClient client)
+        private Cameras selectedCamera;
+        private CameraClient _client;
+        private User? user;
+
+        public ViewModelGiaoDienChinh(CameraClient client,User user)
         {
             _client = client;
             _client.FrameReceived += OnFrameReceived;
-            _client.PropertyChanged += (s, e) =>
-            {
-                if (e.PropertyName == nameof(_client.ClientState))
-                    StateServer = _client.ClientState;
-            };
+            this.user = user;
+            LoadDataFromServer();
+
+        }
+        // sự kiện khi ấn dô descrip của từng camera
+        [RelayCommand]
+        public void OpenCameraDetail(Cameras cam)
+        {
+            SelectedCamera = cam;
+            var window = new PBL4.View.CameraDescription();
+            window.DataContext = new ViewModelCameraDescription(SelectedCamera);
+            window.ShowDialog();
         }
         // sự kiện mở add camera 
         [RelayCommand]
         public void OpenAddCameraWindow()
         {
             var window = new PBL4.View.AddCamera();
+            window.DataContext = new ViewModelAddCamera(_client,user);
             window.ShowDialog();
+            LoadDataFromServer();
 
+        }
+        private async void LoadDataFromServer()
+        {
+            if (user == null || string.IsNullOrEmpty(user.IdUser)) return;
+
+            try
+            {
+                // --- ĐÂY LÀ CHỖ BẠN CẦN ---
+
+                // 1. Gọi BO để lấy danh sách từ DB
+                CamerasBO _camerasBO = new CamerasBO();
+                var listCamFromDB = await _camerasBO.LoadCamerasByUserIdAsync(user.IdUser);
+
+                // 2. Gán thẳng vào cái ListCamera của User (đúng ý bạn muốn)
+                user.ListCamera = listCamFromDB;
+
+                // 3. Đổ dữ liệu từ user.ListCamera sang ObservableCollection để hiện lên giao diện
+                UserCameraList.Clear();
+                if (user.ListCamera != null)
+                {
+                    foreach (var cam in user.ListCamera)
+                    {
+                        UserCameraList.Add(cam);
+                    }
+                }
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show("Lỗi tải danh sách camera: " + ex.Message);
+            }
         }
         public void UpdateFrame(BitmapImage new_image)
         {

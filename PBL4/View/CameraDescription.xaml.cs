@@ -15,17 +15,13 @@ using System.Windows.Shapes;
 namespace PBL4.View
 {
     /// <summary>
-    /// Interaction logic for AddCamera.xaml
+    /// Interaction logic for CameraDescription.xaml
     /// </summary>
-    public partial class AddCamera : Window
+    public partial class CameraDescription : Window
     {
-        public AddCamera()
+        public CameraDescription()
         {
-             InitializeComponent();
-        }
-        private void Close_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
+            InitializeComponent();
         }
     }
 }

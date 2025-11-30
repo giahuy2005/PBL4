@@ -5,8 +5,58 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PBL4.UserControls"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             Background="White"
+             d:DesignHeight="40" d:DesignWidth="300"
+             MaxWidth="500">
     <Grid>
-            
+        <Border BorderThickness="1.5"
+                BorderBrush="{StaticResource MauButtonNormal}"
+                CornerRadius="5">
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1.2*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0" 
+                           Margin="5,0,0,0" 
+                           VerticalAlignment="Center" 
+                           FontWeight="Bold" 
+                           Text="{Binding NameCamera}" 
+                           Foreground="{StaticResource MauChu}"
+                           TextTrimming="CharacterEllipsis" 
+                           ToolTip="{Binding NameCamera}"/>
+                <Grid Grid.Column="1">
+                    <Viewbox HorizontalAlignment="Right" StretchDirection="Both">
+                        <StackPanel Orientation="Horizontal">
+
+                            <Button Style="{StaticResource button_event_scale}"
+                                    Background="Transparent"
+                                    Margin="0,0,5,0"
+                                    ToolTip="Thêm">
+                                <Image Source="/Images/add30.png" Width="20" Height="20" Stretch="Uniform"/>
+                            </Button>
+
+                            <Button Style="{StaticResource button_event_scale}"
+                                    Background="Transparent"
+                                    Margin="0,0,5,0"
+                                    ToolTip="Chi tiết"
+                                    CommandParameter="{Binding}"
+                                    Command="{Binding DataContext.OpenCameraDetailCommand,
+                                    RelativeSource={RelativeSource AncestorType=Window}}">
+                                <Image Source="/Images/info25.png" Width="18" Height="18" Stretch="Uniform"/>
+                            </Button>
+
+                            <Button Style="{StaticResource button_event_scale}"
+                                    Background="Transparent"
+                                    ToolTip="Xóa">
+                                <Image Source="/Images/delete30.png" Width="20" Height="20" Stretch="Uniform"/>
+                            </Button>
+
+                        </StackPanel>
+                    </Viewbox>
+                </Grid>
+            </Grid>
+        </Border>
     </Grid>
 </UserControl>

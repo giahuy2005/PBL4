@@ -19,5 +19,6 @@ namespace PBL4.Model.Entities
 
         [Column("password")]
         public string? Password { get; set; }
+        public List<Cameras>? ListCamera { get; set; }
     }
 }

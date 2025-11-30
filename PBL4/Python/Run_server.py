@@ -78,6 +78,7 @@ async def stream_camera(websocket):
     logging.info("Client connected")
     connections.add(websocket)
     cameras = {}
+    current_checks = {}
     send_lock = asyncio.Lock()
     try:
         async for message in websocket:
@@ -86,9 +87,10 @@ async def stream_camera(websocket):
             cam_id = data.get("camera")
             url = data.get("url")
             if cmd == "add" and cam_id not in cameras:
-                istimeout=try_open_camera(url)
-                if istimeout==False:
+                isopen=await  try_open_camera(url)
+                if isopen==False:
                     logging.error(f"Không mở được camera {cam_id}")
+                    await websocket.send(json.dumps({"cmd":"add_failed","camera":cam_id,"error":"Không mở được camera"}))
                     continue
                 frame_queue = queue.Queue(maxsize=5)
                 stop_flag = threading.Event()
@@ -97,11 +99,44 @@ async def stream_camera(websocket):
                 task = asyncio.create_task(handle_send(websocket, frame_queue, send_lock))
                 cameras[cam_id] = (cam_thread, stop_flag, frame_queue, task)
                 logging.info(f"Added camera {cam_id}")
+                await websocket.send(json.dumps({"cmd":"add_success","camera":cam_id}))
             elif cmd == "stop" and cam_id in cameras:
                 cam_thread, stop_flag, _, task = cameras.pop(cam_id)
                 stop_flag.set()
                 task.cancel()
                 logging.info(f"Stopped camera {cam_id}")
+            elif cmd == "check": 
+                if cam_id in current_checks:
+                    current_checks[cam_id].cancel()
+                async def do_check():
+                    try:
+                        is_open = await try_open_camera(url,timeout=10)
+                        response = {
+                            "cmd": "check_response",
+                            "status": "ok" if is_open else "fail",
+                            "camera": cam_id,
+                            "url": url
+                        }
+                        if not is_open:
+                            response["error"] = "Camera URL cannot be opened."
+                        try: 
+                            await websocket.send(json.dumps(response))
+                        except websockets.ConnectionClosed:
+                            pass
+                        logging.info(f"Checked camera URL {url}: {'Success' if is_open else 'Failed'}")
+                    except asyncio.CancelledError:
+                        logging.info(f"Check camera {cam_id} bị hủy giữa chừng")
+                    finally:
+                        current_checks.pop(cam_id, None)
+                task = asyncio.create_task(do_check())
+                current_checks[cam_id] = task
+            elif cmd == "cancel_check" and cam_id in current_checks:
+                current_checks[cam_id].cancel()
+                await websocket.send(json.dumps({
+                    "cmd": "check_cancelled",
+                    "camera": cam_id
+                }))
+                logging.info(f"User cancelled check for camera {cam_id}")
             elif cmd == "shutdown":
                 logging.info("Received shutdown command")
                 stop_event.set()

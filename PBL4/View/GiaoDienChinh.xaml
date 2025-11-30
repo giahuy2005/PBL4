@@ -5,6 +5,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PBL4.View"
+        xmlns:us ="clr-namespace:PBL4.UserControls"
         mc:Ignorable="d"
         Icon="/Images/camera.png"
         Title="BKCamera" Height="450" Width="800">
@@ -39,19 +40,21 @@
                         <RowDefinition Height="*"></RowDefinition>
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0">
-                        <Border CornerRadius="10" 
-                            Background="White" 
-                            MaxHeight="30"
-                            Margin="4,3,4,3"
-                            BorderBrush="#1a3a4f"
-                            BorderThickness="1"
-                            Effect="{DynamicResource MaterialShadowDepth1}" >        
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                </Grid.ColumnDefinitions>
-                                <TextBox x:Name="txtSearch"
+                        <Border BorderBrush="#dcdcdc" BorderThickness="0,0,0,0.5" >
+                            <Border CornerRadius="10" 
+                                Background="White" 
+                                MaxHeight="30"
+                                VerticalAlignment="Top"
+                                Margin="4,3,4,3"
+                                BorderBrush="#1a3a4f"
+                                BorderThickness="1"
+                                Effect="{DynamicResource MaterialShadowDepth1}" >
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBox x:Name="txtSearch"
                                      Grid.Column="0"
                                      FocusVisualStyle="{x:Null}"
                                      materialDesign:TextFieldAssist.UnderlineBrush="Transparent"
@@ -63,25 +66,40 @@
                                      Text=""
                                      materialDesign:HintAssist.Hint="Tìm kiếm"/>
 
-                                <Button 
+                                    <Button 
                                         Margin="3,3,3,3"
                                         Grid.Column="1"
                                         Style="{StaticResource button_event_scale}"
                                         Background="Transparent"
                                         BorderThickness="0"
-                                        Cursor="Hand"> 
-                                    <Image Source="/Images/search.png" />
-                                </Button>
-                            </Grid>
+                                        Cursor="Hand"
+                                        ToolTip="Tìm kiếm">
+                                        <Image Source="/Images/search.png" />
+                                    </Button>
+                                </Grid>
+                            </Border>
                         </Border>
                     </Grid>
+                    <!--Thêm các usercontrol đại diện cho camera-->
                     <Grid Grid.Row="1">
-                        <ScrollViewer VerticalScrollBarVisibility="Auto" Panel.ZIndex="0">
-                            <WrapPanel x:Name="CameraContainer">
-                                <!-- Các UserControl Camera -->
-                            </WrapPanel>
-                        </ScrollViewer>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                                <ItemsControl ItemsSource="{Binding UserCameraList}">
+
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <us:InfoCameraUC Margin="5,5,5,0"/>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+
+                                </ItemsControl>
+                         </ScrollViewer>
                         <Button
+                            Grid.Row="1"
                             Style="{StaticResource button_event_scale}"
                             HorizontalAlignment="Right"
                             VerticalAlignment="Bottom"
@@ -95,8 +113,8 @@
                     </Grid>
                 </Grid>
             </Border>
-            <Border Grid.Column="1" BorderBrush="#1a3a4f" BorderThickness="0,0,1.5,1.5" > 
-                
+            <Border Grid.Column="1" BorderBrush="#1a3a4f" BorderThickness="0,0,1.5,1.5" >
+               
             </Border>
         </Grid>
     </Grid>

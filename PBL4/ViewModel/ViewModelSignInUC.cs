@@ -14,13 +14,12 @@ namespace PBL4.ViewModel
     public partial class ViewModelSignInUC : ObservableObject
     {
         public event Action? LoginSucceeded;
-
         [ObservableProperty]
         private string? username;
         [ObservableProperty]
         private string? password;
         [RelayCommand]
-        async void Login()
+        async Task Login()
         {
             // truy cập database 
             UserBO userBO = new UserBO();

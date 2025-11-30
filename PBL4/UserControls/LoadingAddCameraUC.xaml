@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="PBL4.UserControls.LoadingAddCameraUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PBL4.UserControls"
+             xmlns:gif="clr-namespace:WpfAnimatedGif;assembly=WpfAnimatedGif"
+             xmlns:ViewModel="clr-namespace:PBL4.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="390" d:DesignWidth="320">
+    <Grid>
+        <Border  
+         BorderBrush="{StaticResource MauButtonNormal}"
+         BorderThickness="2"
+         Background="#f8f8f8">
+            <Grid>
+                <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,50,0,0">
+                    <Image gif:ImageBehavior.AnimatedSource="/Images/UrlLoading.gif"
+                    Width="150" Height="150"
+                    Stretch="Uniform"/>     
+                </StackPanel>
+                <StackPanel
+                     Orientation="Vertical"
+                     Margin="0,0,0,80"
+                     VerticalAlignment="Bottom">
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        FontWeight="ExtraBold"
+                        FontSize="20"
+                        Text="Loading...."
+                        Margin="0,10,0,18"> 
+                        
+                    </TextBlock>
+                    <Button Content="Hủy"
+                      Width="{StaticResource ButtonWidth}"
+                      Height="{StaticResource ButtonHeight}"
+                      Background="IndianRed"
+                      Style="{StaticResource Button1}"
+                      Command="{Binding  CancelAddCameraCommand}"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+    </Grid>
+</UserControl>

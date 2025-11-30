@@ -1,11 +1,12 @@
-﻿using Supabase;
+﻿using PBL4.Model.Entities;
+using Supabase;
 using Supabase.Postgrest;
 using Supabase.Postgrest.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using PBL4.Model.Entities;
+using System.Windows;
 
 namespace PBL4.Model.DAL
 {
@@ -15,9 +16,42 @@ namespace PBL4.Model.DAL
 
         public CamerasDAL()
         {
-            const string SUPABASE_URL = "db.hpktabtbxcizjcagyids.supabase.co";
+            const string SUPABASE_URL = "https://hpktabtbxcizjcagyids.supabase.co";
             const string SUPABASE_KEY = "sb_publishable_WlIoWQiaN7kffntdEKJ69w_ALs_srhe";
             _client = new Supabase.Client(SUPABASE_URL, SUPABASE_KEY);
+        }
+        public string ExtractIp(string url)
+        {
+            try
+            {
+                var uri = new Uri(url);
+                return uri.Host; 
+            }
+            catch
+            {
+                return null;
+            }
+        }
+        public async Task<bool> IsCameraIpExistsAsync(string userId, string ip)
+        {
+            try
+            {
+                var response = await _client
+                    .From<Cameras>()
+                    .Where(c => c.IdUser == userId)
+                    .Get();
+
+                return response.Models.Any(c =>
+                {
+                    var existingIp = ExtractIp(c.URL);
+                    return existingIp == ip;
+                });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error checking ip: {ex.Message}");
+                return false;
+            }
         }
 
         public async Task<List<Cameras>> GetCamerasByUserIdAsync(string userId)
@@ -38,7 +72,7 @@ namespace PBL4.Model.DAL
                 return new List<Cameras>();
             }
         }
-        public async Task<Cameras> InsertCameraAsync(Cameras newCamera)
+        public async Task<Cameras?> InsertCameraAsync(Cameras newCamera)
         {
             try
             {
@@ -50,12 +84,18 @@ namespace PBL4.Model.DAL
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error inserting camera: {ex.Message}");
-                return null;
+                MessageBox.Show(
+                 $"Lỗi khi thêm camera vào database:\n{ex.Message}",
+                 "Supabase Error",
+                 MessageBoxButton.OK,
+                   MessageBoxImage.Error
+                );
+                throw; 
             }
         }
 
-   
+
+
         public async Task DeleteCameraAsync(Cameras cameraToDelete)
         {
             try
