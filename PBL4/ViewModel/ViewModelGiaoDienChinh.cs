@@ -131,15 +131,15 @@ namespace PBL4.ViewModel
         {
             Application.Current.Dispatcher.Invoke(() =>
             {
-                var existing = Cameras.FirstOrDefault(c => c.CamId == camId);
-                if (existing != null)
+                var activeCam = ActiveCameras.FirstOrDefault(c => c.CamId == camId);
+
+                if (activeCam != null)
                 {
-                    existing.Image = image;
+                  
+                    activeCam.Image = image;
                 }
-                else
-                {
-                    Cameras.Add(new CameraModel { CamId = camId, Image = image });
-                }
+
+                
             });
         }
         [RelayCommand]

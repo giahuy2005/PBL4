@@ -197,7 +197,7 @@ namespace PBL4.Services
 
         private async Task ReceiveLoop()
         {
-            var buffer = new byte[1024 * 4];
+            var buffer = new byte[1024 * 8];
             var sb = new StringBuilder();
 
             while (_ws.State == WebSocketState.Open)

@@ -4,11 +4,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PBL4.View"
+        xmlns:local="clr-namespace:PBL4.Converters"
         xmlns:us ="clr-namespace:PBL4.UserControls"
         mc:Ignorable="d"
         Icon="/Images/camera.png"
         Title="BKCamera" Height="450" Width="800">
+    <Window.Resources>
+        <local:GridConfigConverter x:Key="GridConfigConverter"/>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"> </RowDefinition>
@@ -113,8 +116,35 @@
                     </Grid>
                 </Grid>
             </Border>
-            <Border Grid.Column="1" BorderBrush="#1a3a4f" BorderThickness="0,0,1.5,1.5" >
-               
+            <Border Grid.Column="1" BorderBrush="#1a3a4f" BorderThickness="0,0,1.5,1.5" Background="White">
+                <ItemsControl ItemsSource="{Binding ActiveCameras}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <UniformGrid 
+                            Rows="{Binding ActiveCameras.Count, Converter={StaticResource GridConfigConverter}, ConverterParameter=Rows}"
+                            Columns="{Binding ActiveCameras.Count, Converter={StaticResource GridConfigConverter}, ConverterParameter=Columns}"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="Gray" BorderThickness="1" Margin="2">
+                                <Grid>
+                                    <Image Source="{Binding Image}" Stretch="Fill"/>
+
+                                    <TextBlock Text="{Binding NameCamera}" 
+                                   Foreground="LimeGreen" 
+                                   FontWeight="Bold" 
+                                   VerticalAlignment="Top" 
+                                   HorizontalAlignment="Left" 
+                                   Margin="5"
+                                   Background="#80000000"
+                                   Padding="5"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
             </Border>
         </Grid>
     </Grid>
