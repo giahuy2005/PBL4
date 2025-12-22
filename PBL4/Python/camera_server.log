@@ -1,85 +1,16 @@
-2025-12-01 10:04:23,990 [INFO] Server starting ws://0.0.0.0:36000
-2025-12-01 10:04:24,211 [INFO] server listening on 0.0.0.0:36000
-2025-12-01 10:04:24,591 [INFO] connection open
-2025-12-01 10:04:24,591 [INFO] Client connected
-2025-12-01 10:04:54,154 [INFO] Checked camera URL http://admin:admin@10.191.211.169:8888/video: Success
-2025-12-01 10:04:58,593 [INFO] Checked camera URL http://admin:admin@10.191.211.169:8888/video: Success
-2025-12-01 10:04:58,663 [INFO] Thread start camera 779aef65-0f6e-4c95-9e87-2091915313a3
-2025-12-01 10:04:58,664 [INFO] Added camera 779aef65-0f6e-4c95-9e87-2091915313a3
-2025-12-01 10:05:00,439 [INFO] \u0110ã g\u1eedi 30 frame t\u1edbi client
-2025-12-01 10:05:01,283 [INFO] \u0110ã g\u1eedi 60 frame t\u1edbi client
-2025-12-01 10:05:02,029 [INFO] \u0110ã g\u1eedi 90 frame t\u1edbi client
-2025-12-01 10:05:02,707 [INFO] \u0110ã g\u1eedi 120 frame t\u1edbi client
-2025-12-01 10:05:03,525 [INFO] \u0110ã g\u1eedi 150 frame t\u1edbi client
-2025-12-01 10:05:03,641 [INFO] Checked camera URL http://admin:admin@10.191.211.222:36000/video: Success
-2025-12-01 10:05:03,889 [INFO] Thread start camera 50eb0efc-ed56-4cd4-83db-a16b0c308e5c
-2025-12-01 10:05:03,890 [INFO] Added camera 50eb0efc-ed56-4cd4-83db-a16b0c308e5c
-2025-12-01 10:05:05,771 [INFO] \u0110ã g\u1eedi 180 frame t\u1edbi client
-2025-12-01 10:05:06,485 [INFO] \u0110ã g\u1eedi 30 frame t\u1edbi client
-2025-12-01 10:05:06,537 [INFO] \u0110ã g\u1eedi 210 frame t\u1edbi client
-2025-12-01 10:05:07,432 [INFO] \u0110ã g\u1eedi 240 frame t\u1edbi client
-2025-12-01 10:05:08,167 [INFO] \u0110ã g\u1eedi 60 frame t\u1edbi client
-2025-12-01 10:05:08,316 [INFO] \u0110ã g\u1eedi 270 frame t\u1edbi client
-2025-12-01 10:05:09,084 [INFO] \u0110ã g\u1eedi 300 frame t\u1edbi client
-2025-12-01 10:05:09,511 [INFO] \u0110ã g\u1eedi 90 frame t\u1edbi client
-2025-12-01 10:05:09,852 [INFO] \u0110ã g\u1eedi 330 frame t\u1edbi client
-2025-12-01 10:05:10,450 [INFO] \u0110ã g\u1eedi 120 frame t\u1edbi client
-2025-12-01 10:05:10,511 [INFO] \u0110ã g\u1eedi 360 frame t\u1edbi client
-2025-12-01 10:05:11,309 [INFO] \u0110ã g\u1eedi 390 frame t\u1edbi client
-2025-12-01 10:05:11,472 [INFO] \u0110ã g\u1eedi 150 frame t\u1edbi client
-2025-12-01 10:05:12,256 [INFO] \u0110ã g\u1eedi 420 frame t\u1edbi client
-2025-12-01 10:05:12,710 [INFO] \u0110ã g\u1eedi 180 frame t\u1edbi client
-2025-12-01 10:05:13,171 [INFO] \u0110ã g\u1eedi 450 frame t\u1edbi client
-2025-12-01 10:05:14,309 [INFO] \u0110ã g\u1eedi 210 frame t\u1edbi client
-2025-12-01 10:05:14,711 [INFO] \u0110ã g\u1eedi 480 frame t\u1edbi client
-2025-12-01 10:05:15,617 [INFO] \u0110ã g\u1eedi 240 frame t\u1edbi client
-2025-12-01 10:05:15,755 [INFO] \u0110ã g\u1eedi 510 frame t\u1edbi client
-2025-12-01 10:05:16,526 [INFO] \u0110ã g\u1eedi 540 frame t\u1edbi client
-2025-12-01 10:05:16,915 [INFO] \u0110ã g\u1eedi 270 frame t\u1edbi client
-2025-12-01 10:05:17,362 [INFO] \u0110ã g\u1eedi 570 frame t\u1edbi client
-2025-12-01 10:05:18,278 [INFO] \u0110ã g\u1eedi 600 frame t\u1edbi client
-2025-12-01 10:05:18,422 [INFO] \u0110ã g\u1eedi 300 frame t\u1edbi client
-2025-12-01 10:05:19,108 [INFO] \u0110ã g\u1eedi 630 frame t\u1edbi client
-2025-12-01 10:05:19,874 [INFO] \u0110ã g\u1eedi 660 frame t\u1edbi client
-2025-12-01 10:05:20,137 [INFO] \u0110ã g\u1eedi 330 frame t\u1edbi client
-2025-12-01 10:05:20,537 [INFO] \u0110ã g\u1eedi 690 frame t\u1edbi client
-2025-12-01 10:05:21,390 [INFO] \u0110ã g\u1eedi 720 frame t\u1edbi client
-2025-12-01 10:05:21,862 [INFO] \u0110ã g\u1eedi 360 frame t\u1edbi client
-2025-12-01 10:05:22,117 [INFO] \u0110ã g\u1eedi 750 frame t\u1edbi client
-2025-12-01 10:05:22,868 [INFO] \u0110ã g\u1eedi 390 frame t\u1edbi client
-2025-12-01 10:05:23,023 [INFO] \u0110ã g\u1eedi 780 frame t\u1edbi client
-2025-12-01 10:05:23,778 [INFO] \u0110ã g\u1eedi 420 frame t\u1edbi client
-2025-12-01 10:05:23,873 [INFO] \u0110ã g\u1eedi 810 frame t\u1edbi client
-2025-12-01 10:05:24,889 [INFO] \u0110ã g\u1eedi 840 frame t\u1edbi client
-2025-12-01 10:05:24,893 [INFO] \u0110ã g\u1eedi 450 frame t\u1edbi client
-2025-12-01 10:05:25,658 [INFO] \u0110ã g\u1eedi 870 frame t\u1edbi client
-2025-12-01 10:05:25,776 [INFO] \u0110ã g\u1eedi 480 frame t\u1edbi client
-2025-12-01 10:05:26,624 [INFO] \u0110ã g\u1eedi 900 frame t\u1edbi client
-2025-12-01 10:05:26,775 [INFO] \u0110ã g\u1eedi 510 frame t\u1edbi client
-2025-12-01 10:05:27,503 [INFO] \u0110ã g\u1eedi 930 frame t\u1edbi client
-2025-12-01 10:05:27,851 [INFO] \u0110ã g\u1eedi 540 frame t\u1edbi client
-2025-12-01 10:05:28,092 [INFO] \u0110ã g\u1eedi 960 frame t\u1edbi client
-2025-12-01 10:05:28,793 [INFO] \u0110ã g\u1eedi 570 frame t\u1edbi client
-2025-12-01 10:05:28,959 [INFO] \u0110ã g\u1eedi 990 frame t\u1edbi client
-2025-12-01 10:05:29,758 [INFO] \u0110ã g\u1eedi 1020 frame t\u1edbi client
-2025-12-01 10:05:29,842 [INFO] \u0110ã g\u1eedi 600 frame t\u1edbi client
-2025-12-01 10:05:30,627 [INFO] \u0110ã g\u1eedi 1050 frame t\u1edbi client
-2025-12-01 10:05:30,978 [INFO] Stopped camera 50eb0efc-ed56-4cd4-83db-a16b0c308e5c
-2025-12-01 10:05:30,993 [INFO] Thread stop camera 50eb0efc-ed56-4cd4-83db-a16b0c308e5c
-2025-12-01 10:05:31,189 [INFO] \u0110ã g\u1eedi 1080 frame t\u1edbi client
-2025-12-01 10:05:31,871 [INFO] \u0110ã g\u1eedi 1110 frame t\u1edbi client
-2025-12-01 10:05:32,645 [INFO] \u0110ã g\u1eedi 1140 frame t\u1edbi client
-2025-12-01 10:05:33,485 [INFO] \u0110ã g\u1eedi 1170 frame t\u1edbi client
-2025-12-01 10:05:34,056 [INFO] \u0110ã g\u1eedi 1200 frame t\u1edbi client
-2025-12-01 10:05:34,793 [INFO] \u0110ã g\u1eedi 1230 frame t\u1edbi client
-2025-12-01 10:05:35,571 [INFO] \u0110ã g\u1eedi 1260 frame t\u1edbi client
-2025-12-01 10:05:36,320 [INFO] \u0110ã g\u1eedi 1290 frame t\u1edbi client
-2025-12-01 10:05:36,666 [INFO] Stopped camera 779aef65-0f6e-4c95-9e87-2091915313a3
-2025-12-01 10:05:36,671 [INFO] Thread stop camera 779aef65-0f6e-4c95-9e87-2091915313a3
-2025-12-01 10:05:38,662 [INFO] Received shutdown command
-2025-12-01 10:05:38,663 [INFO] Cleaned up client tasks
-2025-12-01 10:05:38,663 [INFO] Shutting down server...
-2025-12-01 10:05:38,663 [INFO] server closing
-2025-12-01 10:05:38,677 [INFO] connection closed
-2025-12-01 10:05:38,678 [INFO] server closed
-2025-12-01 10:05:38,678 [INFO] Server stopped cleanly.
+2025-12-22 17:29:54,470 [INFO] Server starting ws://0.0.0.0:36000
+2025-12-22 17:29:54,515 [INFO] server listening on 0.0.0.0:36000
+2025-12-22 17:29:58,082 [INFO] connection open
+2025-12-22 17:29:58,083 [INFO] Client connected
+2025-12-22 17:30:42,718 [INFO] User cancelled check for camera onlycamcheck
+2025-12-22 17:30:42,719 [INFO] Check camera onlycamcheck b\u1ecb h\u1ee7y gi\u1eefa ch\u1eebng
+2025-12-22 17:31:11,873 [INFO] User cancelled check for camera onlycamcheck
+2025-12-22 17:31:11,873 [INFO] Check camera onlycamcheck b\u1ecb h\u1ee7y gi\u1eefa ch\u1eebng
+2025-12-22 17:31:40,986 [INFO] Check camera check_temp_id b\u1ecb h\u1ee7y gi\u1eefa ch\u1eebng
+2025-12-22 17:31:41,241 [INFO] Check camera check_temp_id b\u1ecb h\u1ee7y gi\u1eefa ch\u1eebng
+2025-12-22 17:31:50,380 [INFO] Received shutdown command
+2025-12-22 17:31:50,380 [INFO] Cleaned up client tasks
+2025-12-22 17:31:50,381 [INFO] Shutting down server...
+2025-12-22 17:31:50,381 [INFO] server closing
+2025-12-22 17:31:50,384 [INFO] server closed
+2025-12-22 17:31:50,384 [INFO] Server stopped cleanly.

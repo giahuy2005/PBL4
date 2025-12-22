@@ -25,15 +25,16 @@ namespace PBL4.Model.DAL
             try
             {
                 var uri = new Uri(url);
-                return uri.Host; 
+                return uri.Authority;
             }
             catch
             {
                 return null;
             }
         }
-        public async Task<bool> IsCameraIpExistsAsync(string userId, string ip)
+        public async Task<bool> IsCameraIpExistsAsync(string userId, string url)
         {
+            var ip = ExtractIp(url);
             try
             {
                 var response = await _client
@@ -43,6 +44,7 @@ namespace PBL4.Model.DAL
 
                 return response.Models.Any(c =>
                 {
+
                     var existingIp = ExtractIp(c.URL);
                     return existingIp == ip;
                 });
@@ -72,6 +74,22 @@ namespace PBL4.Model.DAL
                 return new List<Cameras>();
             }
         }
+        public async Task<Cameras?> GetCamerasByIdAsync(string cameraId)
+        {
+            try
+            {
+                var response = await _client
+                    .From<Cameras>()
+                    .Where(c => c.IdCamera == cameraId)
+                    .Get();
+                return response.Models.FirstOrDefault();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error retrieving camera with ID {cameraId}: {ex.Message}");
+                return null;
+            }
+        }
         public async Task<Cameras?> InsertCameraAsync(Cameras newCamera)
         {
             try
@@ -93,22 +111,43 @@ namespace PBL4.Model.DAL
                 throw; 
             }
         }
+        public async Task<Boolean> DesignInfoCamera(Cameras Camera)
+        {
+            try
+            {
+                var response = await _client
+                .From<Cameras>()
+                .Update(Camera);
+                return response.Models.Count > 0;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(
+                 $"Lỗi khi sửa camera vào database:\n{ex.Message}",
+                 "Supabase Error",
+                 MessageBoxButton.OK,
+                   MessageBoxImage.Error
+                );
+                return false;
 
-
-
-        public async Task DeleteCameraAsync(Cameras cameraToDelete)
+            }
+        }
+        public async Task<bool> DeleteCameraAsync(string idCamera)
         {
             try
             {
                 await _client
                     .From<Cameras>()
-                    .Delete(cameraToDelete);
+                    .Where(c => c.IdCamera == idCamera)
+                    .Delete();
+                return true;
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Error deleting camera: {ex.Message}");
-                throw; // Ném lỗi lên lớp Repository xử lý
+                return false;
             }
         }
+
     }
 }

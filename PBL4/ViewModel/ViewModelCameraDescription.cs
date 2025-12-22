@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-
+using PBL4.Services;
 namespace PBL4.ViewModel
 {
     public partial class ViewModelCameraDescription : ObservableObject
@@ -15,10 +15,10 @@ namespace PBL4.ViewModel
         [ObservableProperty]
         private ObservableObject? currentView;
 
-        public ViewModelCameraDescription(CameraModel Cam)
+        public ViewModelCameraDescription(CameraModel Cam,CameraClient client)
         {
             // khởi tạo các viewmodel con
-            ViewModelCameraDescriptionUC viewmodel = new ViewModelCameraDescriptionUC(Cam);
+            ViewModelCameraDescriptionUC viewmodel = new ViewModelCameraDescriptionUC(Cam,client);
             viewmodel.IsClose += OnIsClose; 
             CurrentView = viewmodel;
 

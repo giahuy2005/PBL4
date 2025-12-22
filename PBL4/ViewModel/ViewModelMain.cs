@@ -55,7 +55,6 @@ namespace PBL4.ViewModel
         private async void OnLoadSuccess()
         {
             var GiaoDienChinh = new GiaoDienChinh();
-            GiaoDienChinh.Show();
             CameraClient client; 
             if (CurrentView is ViewModelLoadingSignInUc loadingVM)
             {
@@ -75,7 +74,11 @@ namespace PBL4.ViewModel
             }
             UserBO userbo= new UserBO();
             User user = await userbo.GetUserByUserNameAsync(username);
-            GiaoDienChinh.DataContext = new ViewModelGiaoDienChinh(client,user);
+            ViewModelGiaoDienChinh viewModelGiaoDienChinh = new ViewModelGiaoDienChinh(client, user);
+     
+            GiaoDienChinh.DataContext =  viewModelGiaoDienChinh;
+            GiaoDienChinh.Show();
+
         }
         private void OnLoadFailed()
         {

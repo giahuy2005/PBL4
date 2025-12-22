@@ -8,7 +8,10 @@ namespace PBL4.Model.BO
     {
         Task<List<Cameras>> LoadCamerasByUserIdAsync(string userId);
         Task<Cameras> AddNewCameraAsync(Cameras newCamera);
-        Task DeleteCameraAsync(Cameras cameraToDelete);
         Task<bool> IsCameraIpExistsAsync(string userId, string ip);
+        Task<Cameras> GetCamerasByIdAsync(string cameraId);
+        Task<bool> DesignInfoCamera(Cameras cameraToUpdate);
+        Task<bool> DeleteCamera(string id_cameraToDelete);
+        
     }
 }

@@ -8,10 +8,12 @@ using Supabase.Gotrue;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Windows;
+using System.Windows.Media.Media3D;
 using Users = PBL4.Model.Entities.User;
 // frame communitytoolkit mvvm
 namespace PBL4.ViewModel
@@ -107,16 +109,17 @@ namespace PBL4.ViewModel
 
                     CurrentView = addCameraUC;
                 }
-
-
             }
         }
         private void OnIsClose()
         {
             Application.Current.Windows.OfType<Window>().SingleOrDefault(w => w.DataContext == this)?.Close();
         }
-        private void OnIsCancel()
+        private async void OnIsCancel()
         {
+            bool isCancel= await _client.CancelCheckCamera("onlycamcheck");
+
+            // chưa có lệnh gửi về server kêu nó dừng lại 
             CurrentView = addCameraUC;
         }
 

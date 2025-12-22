@@ -193,6 +193,31 @@ namespace PBL4.Services
 
             return await _checkCameraTcs.Task;
         }
+        public async Task<bool> CancelCheckCamera(string camId)
+        {
+            if (!check_ws())
+                return false;
+
+            var message = new
+            {
+                cmd = "cancel_check",
+                camera = camId
+            };
+
+            string json = JsonSerializer.Serialize(message);
+
+            await _ws.SendAsync(
+                Encoding.UTF8.GetBytes(json),
+                WebSocketMessageType.Text,
+                true,
+                CancellationToken.None
+            );
+
+            // Hủy luôn TaskCompletionSource để UI không bị treo
+            _checkCameraTcs?.TrySetCanceled();
+            return true;
+        }
+
 
 
         private async Task ReceiveLoop()
@@ -256,7 +281,15 @@ namespace PBL4.Services
                                 _checkCameraTcs?.SetResult(true);
                                 continue;
                             }
-                            else if  (cmd == "add_success")
+                            else if (cmd == "check_cancelled")
+                            {
+                                string camId = doc.RootElement.GetProperty("camera").GetString()!;
+                                _checkCameraTcs?.TrySetCanceled();
+                                MessageBox.Show($"Đã hủy kiểm tra camera {camId}",
+                                    "Huỷ kiểm tra", MessageBoxButton.OK, MessageBoxImage.Information);
+                                continue;
+                            }
+                            else if (cmd == "add_success")
                             {
                                 MessageBox.Show("add thành công");
                                 continue;

@@ -92,9 +92,28 @@
                                 <Image Source="/Images/info25.png" Width="18" Height="18" Stretch="Uniform"/>
                             </Button>
 
-                            <Button Style="{StaticResource button_event_scale}"
-                                    Background="Transparent"
-                                    ToolTip="Xóa">
+                            <Button Background="Transparent"
+                                  ToolTip="Xóa"
+                                  Command="{Binding DataContext.DeleteCameraCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                  CommandParameter="{Binding}"
+>
+
+                                <Button.Style>
+                                    <Style TargetType="Button" BasedOn="{StaticResource button_event_scale}">
+
+                                        <Setter Property="IsEnabled" Value="True"/>
+                                        <Setter Property="Opacity" Value="1.0"/>
+
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding  IsStreaming}" Value="True">
+                                                <Setter Property="IsEnabled" Value="False"/>
+                                                <Setter Property="Opacity" Value="0.3"/>
+                                                <Setter Property="Cursor" Value="Arrow"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+
                                 <Image Source="/Images/delete30.png" Width="20" Height="20" Stretch="Uniform"/>
                             </Button>
 

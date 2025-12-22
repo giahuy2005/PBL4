@@ -51,17 +51,22 @@ namespace PBL4.Model.BO
             }
         }
 
-        public async Task DeleteCameraAsync(Cameras cameraToDelete)
-        {
-            // Logic nghiệp vụ: Kiểm tra quyền sở hữu camera
-            // (Ví dụ: nếu cameraToDelete.IdUser != currentUserId thì throw exception)
-
-            // Gọi DAL
-            await _camerasDal.DeleteCameraAsync(cameraToDelete);
-        }
         public async Task<bool> IsCameraIpExistsAsync(string userId, string url)
         {
             return await _camerasDal.IsCameraIpExistsAsync(userId, url);
         }
+        public async Task<Cameras?> GetCamerasByIdAsync(string cameraId)
+        {
+            return await _camerasDal.GetCamerasByIdAsync(cameraId);
+        }
+        public async Task<bool> DesignInfoCamera(Cameras Camera)
+        {
+            return await _camerasDal.DesignInfoCamera(Camera);
+        }
+        public async Task<bool> DeleteCamera(string id_cameraToDelete)
+        {
+            return await _camerasDal.DeleteCameraAsync(id_cameraToDelete);
+        }
+
     }
 }

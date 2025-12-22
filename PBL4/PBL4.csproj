@@ -13,18 +13,31 @@
     <None Remove="Images\add30.png" />
     <None Remove="Images\camera-slogan.png" />
     <None Remove="Images\camera.png" />
+    <None Remove="Images\close.png" />
     <None Remove="Images\delete30.png" />
+    <None Remove="Images\icons8-name-64.png" />
+    <None Remove="Images\Info.gif" />
     <None Remove="Images\info25.png" />
     <None Remove="Images\information.png" />
+    <None Remove="Images\left.png" />
     <None Remove="Images\loading.gif" />
     <None Remove="Images\LoadingCamera.gif" />
     <None Remove="Images\OffCamera.png" />
     <None Remove="Images\password.png" />
+    <None Remove="Images\right.png" />
     <None Remove="Images\search.png" />
+    <None Remove="Images\setting-100.png" />
     <None Remove="Images\url.png" />
     <None Remove="Images\UrlLoading.gif" />
     <None Remove="Images\user-64.png" />
+    <None Remove="Images\username-100.png" />
     <None Remove="Images\username.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\icons8-name-64.png" />
+    <Resource Include="Images\Info.gif" />
+    <Resource Include="Images\right.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -40,17 +53,21 @@
     <Resource Include="Images\add30.png" />
     <Resource Include="Images\camera-slogan.png" />
     <Resource Include="Images\camera.png" />
+    <Resource Include="Images\close.png" />
     <Resource Include="Images\delete30.png" />
     <Resource Include="Images\info25.png" />
     <Resource Include="Images\information.png" />
+    <Resource Include="Images\left.png" />
     <Resource Include="Images\loading.gif" />
     <Resource Include="Images\LoadingCamera.gif" />
     <Resource Include="Images\OffCamera.png" />
     <Resource Include="Images\password.png" />
     <Resource Include="Images\search.png" />
+    <Resource Include="Images\setting-100.png" />
     <Resource Include="Images\url.png" />
     <Resource Include="Images\UrlLoading.gif" />
     <Resource Include="Images\user-64.png" />
+    <Resource Include="Images\username-100.png" />
     <Resource Include="Images\username.png" />
   </ItemGroup>
 

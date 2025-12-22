@@ -11,6 +11,8 @@
         Title="BKCamera" Height="450" Width="800">
     <Window.Resources>
         <local:GridConfigConverter x:Key="GridConfigConverter"/>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <local:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter"></local:InverseBoolToVisibilityConverter> 
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -27,16 +29,54 @@
                         <TextBlock Text="An ninh thông minh – Cuộc sống an yên" FontSize="10" FontWeight="Bold"> </TextBlock>
                     </StackPanel>
                 </StackPanel>
+                <Border HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Padding="6,3"
+                    Margin="0,0,5,0"
+                    CornerRadius="10"
+                    BorderThickness="0.8"
+                    BorderBrush="#416882"
+                    Background="#4e81a3"
+                    Cursor="Hand">  
+                    
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icon -->
+              
+                        <Image Source="/Images/icons8-name-64.png"
+                           Width="25"
+                           Height="25"
+                           Margin="0,0,8,0"
+                           Grid.Column="0"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+
+                        <!-- Username -->
+                        <TextBlock Grid.Column="1"
+                   Text="{Binding Name}"
+                   FontSize="14"
+                   FontWeight="Bold"
+                   Foreground="Black"
+                   VerticalAlignment="Center"/>
+                    </Grid>
+                </Border>
+
+
             </Grid>
         </Border>
 
         <Grid Grid.Row="1">
-            
+
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.23*"> </ColumnDefinition>
-                <ColumnDefinition Width="0.8*"> </ColumnDefinition>
+                <ColumnDefinition Width="{Binding ExploreWidth}" x:Name="ExploreColumn" ></ColumnDefinition>
+                <ColumnDefinition Width="0.8*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Border Grid.Column="0" BorderBrush="#1a3a4f" BorderThickness="1.5,0,1.5,1.5" >
+            <Border Grid.Column="0" BorderBrush="#1a3a4f" BorderThickness="1.5,0,1.5,1.5"  Visibility="{Binding IsExploreOpen, Converter={StaticResource BoolToVisibilityConverter}}">
                 <Grid Grid.Column="0" Background="#f8f8f8">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="0.08*"></RowDefinition>
@@ -44,44 +84,78 @@
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0">
                         <Border BorderBrush="#dcdcdc" BorderThickness="0,0,0,0.5" >
-                            <Border CornerRadius="10" 
-                                Background="White" 
-                                MaxHeight="30"
-                                VerticalAlignment="Top"
-                                Margin="4,3,4,3"
-                                BorderBrush="#1a3a4f"
-                                BorderThickness="1"
-                                Effect="{DynamicResource MaterialShadowDepth1}" >
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"/>
-                                        <ColumnDefinition Width="Auto"/>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBox x:Name="txtSearch"
-                                     Grid.Column="0"
-                                     FocusVisualStyle="{x:Null}"
-                                     materialDesign:TextFieldAssist.UnderlineBrush="Transparent"
-                                     BorderThickness="0"
-                                     VerticalContentAlignment="Center"
-                                     Background="Transparent"
-                                     Foreground="Black"
-                                     Padding="4,0,0,0"
-                                     Text=""
-                                     materialDesign:HintAssist.Hint="Tìm kiếm"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Border Grid.Column="0"
+                                        CornerRadius="10" 
+                                        Background="White" 
+                                        MaxHeight="30"
+                                        VerticalAlignment="Top"
+                                        Margin="4,3,4,3"
+                                        BorderBrush="#1a3a4f"   
+                                        BorderThickness="1"
+                                        Effect="{DynamicResource MaterialShadowDepth1}" >
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBox x:Name="txtSearch"
+                                             Grid.Column="0"
+                                             FocusVisualStyle="{x:Null}"
+                                             materialDesign:TextFieldAssist.UnderlineBrush="Transparent"
+                                             BorderThickness="0"
+                                             VerticalContentAlignment="Center"
+                                             Background="Transparent"
+                                             Foreground="Black"
+                                             Padding="4,0,0,0"
+                                             Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                                             materialDesign:HintAssist.Hint="Tìm kiếm">
+                                            <TextBox.InputBindings>
+                                                <KeyBinding Key="Return" Command="{Binding PerformSearchCommand}"/>
+                                            </TextBox.InputBindings>
+                                        </TextBox>
+                                        
 
-                                    <Button 
-                                        Margin="3,3,3,3"
-                                        Grid.Column="1"
-                                        Style="{StaticResource button_event_scale}"
-                                        Background="Transparent"
-                                        BorderThickness="0"
-                                        Cursor="Hand"
-                                        ToolTip="Tìm kiếm">
-                                        <Image Source="/Images/search.png" />
+                                        <Button 
+                                                Margin="3,3,3,3"
+                                                Grid.Column="1"
+                                                Command="{Binding PerformSearchCommand}"
+                                                Style="{StaticResource button_event_scale}"
+                                                Background="Transparent"
+                                                BorderThickness="0"
+                                                Cursor="Hand"
+                                                 ToolTip="Tìm kiếm">
+                                            <Image Source="/Images/search.png"/>
+                                        </Button>
+                                    </Grid>
+                                </Border>
+                                <Border Grid.Column="1"
+                                   Background="White" 
+                                      MaxHeight="30"
+                                      VerticalAlignment="Top"
+                                      Margin="0,3,4,3"
+                                      BorderThickness="1"
+                                    Effect="{DynamicResource MaterialShadowDepth1}" >
+                                    <Button Grid.Column="1"
+                                    MaxHeight="30"
+                                    ToolTip="Đóng Explore"
+                                    Style="{StaticResource button_event_scale}"
+                                    Cursor="Hand"
+                                    Command="{Binding CloseExploreCommand}"
+                                    VerticalAlignment="Stretch" >
+                                        <Image Source="/Images/left.png"/>
                                     </Button>
-                                </Grid>
-                            </Border>
+                                </Border>
+
+                            </Grid>
+
                         </Border>
+
+
                     </Grid>
                     <!--Thêm các usercontrol đại diện cho camera-->
                     <Grid Grid.Row="1">
@@ -91,16 +165,17 @@
                         </Grid.RowDefinitions>
 
                         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
-                                <ItemsControl ItemsSource="{Binding UserCameraList}">
+                            <ItemsControl ItemsSource="{Binding UserCameraList}">
 
-                                    <ItemsControl.ItemTemplate>
-                                        <DataTemplate>
-                                            <us:InfoCameraUC Margin="5,5,5,0"/>
-                                        </DataTemplate>
-                                    </ItemsControl.ItemTemplate>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <us:InfoCameraUC Margin="5,5,5,0"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
 
-                                </ItemsControl>
-                         </ScrollViewer>
+                            </ItemsControl>
+                        </ScrollViewer>
+
                         <Button
                             Grid.Row="1"
                             Style="{StaticResource button_event_scale}"
@@ -112,10 +187,56 @@
                             Padding="0" Margin="5">
                             <Image Source="/Images/add.png" Width="40" Height="40"/>
                         </Button>
+                        <Button Grid.Row="1"
+                           MaxHeight="30"
+                           Margin="5,0,0,5"
+                           ToolTip="Đóng Explore"
+                           Style="{StaticResource button_event_scale}"
+                           Cursor="Hand"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom" >
+                            <Image Source="/Images/setting-100.png"/>
+                        </Button>
 
                     </Grid>
                 </Grid>
             </Border>
+            <!--Phần giao diện sau khi đóng menu-->
+            <Border Grid.Column="0" BorderBrush="#1a3a4f" BorderThickness="1.5,0,1.5,1.5"
+                      Visibility="{Binding IsExploreOpen,Converter={StaticResource InverseBoolToVisibilityConverter}}" >
+                <Grid>
+                    <Border Grid.Column="1"
+                           Background="White" 
+                           MaxHeight="30"
+                           VerticalAlignment="Top"
+                           Margin="0,3,4,3"
+                           BorderThickness="1"
+                           Effect="{DynamicResource MaterialShadowDepth1}" >
+                        <Button Grid.Column="1"
+                               
+                             MaxHeight="30"
+                             ToolTip="Đóng Explore"
+                             Style="{StaticResource button_event_scale}"
+                             Cursor="Hand"
+                             Command="{Binding CloseExploreCommand}"
+                             VerticalAlignment="Stretch" >
+                             
+                            <Image Source="/Images/right.png"/>
+                        </Button>
+                    </Border>
+                    <Button Grid.Column="1"
+                       MaxHeight="30"
+                       Margin="0,0,0,5"
+                       ToolTip="Đóng Explore"
+                       Style="{StaticResource button_event_scale}"
+                       Cursor="Hand"
+                       VerticalAlignment="Bottom" >    
+                        <Image Source="/Images/setting-100.png"/>
+                    </Button>
+                </Grid>
+                    
+            </Border>
+
             <Border Grid.Column="1" BorderBrush="#1a3a4f" BorderThickness="0,0,1.5,1.5" Background="White">
                 <ItemsControl ItemsSource="{Binding ActiveCameras}">
                     <ItemsControl.ItemsPanel>
